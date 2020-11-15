@@ -12,8 +12,8 @@ public class CharacterController : MonoBehaviour
     
     private Rigidbody rb;
     private Vector3 desp;
-    private bool canInteract = false;
-    private TestConversation test;
+    public bool canInteract = false;
+    private ConversationManager convManager;
 
     private void Awake()
     {
@@ -37,7 +37,7 @@ public class CharacterController : MonoBehaviour
     void StartInteraction()
     {
         canInteract = false;
-        test.StartConv();
+        convManager.StartConv();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -45,7 +45,7 @@ public class CharacterController : MonoBehaviour
         if (other.tag == "Interactable")
         {
             canInteract = true;
-            test = other.gameObject.GetComponent<TestConversation>();
+            convManager = other.gameObject.GetComponent<ConversationManager>();
         }
     }
 
@@ -54,7 +54,7 @@ public class CharacterController : MonoBehaviour
         if (other.tag == "Interactable") 
         {
             canInteract = false;
-            test = null;
+            convManager = null;
         }
     }
 }

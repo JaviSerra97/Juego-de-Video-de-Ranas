@@ -10,6 +10,7 @@ public class DialogueManager : MonoBehaviour
     public TextMeshProUGUI navButtonText;
     public Image speakerSprite;
     public float textSpeed;
+    public CharacterController player;
 
     private int currentIndex;
     private Conversation currentConv;
@@ -44,6 +45,7 @@ public class DialogueManager : MonoBehaviour
         if(currentIndex > currentConv.GetLength()) 
         {
             instance.anim.SetBool("StartConv", false);
+            player.canInteract = true;
             return; 
         }
 
