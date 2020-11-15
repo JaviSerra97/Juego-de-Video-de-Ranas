@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abc7a3d44273a0d419eb0bf3836d43d8, type: 3}
+  m_Name: AquiEstamos
+  m_EditorClassIdentifier: 
+  linesList:
+  - speaker: {fileID: 11400000, guid: 28d4da9cba9be1b4a9a34d2e21d51bd5, type: 2}
+    dialogue: Que cenamos tio?
+  - speaker: {fileID: 11400000, guid: ae7df1edc3102bb4486bb01b1c666cf7, type: 2}
+    dialogue: No se tio pero vemos Borat.
