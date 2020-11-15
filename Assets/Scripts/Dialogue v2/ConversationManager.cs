@@ -8,9 +8,15 @@ public class ConversationManager : MonoBehaviour
     public int limitOfConversations;
     private int convIndex = 0;
 
+    void Awake()
+    {
+        convIndex = 0;
+    }
+
     public void StartConv()
     {
         DialogueManager.StartConversation(listOfConversations[convIndex]);
         if(convIndex < limitOfConversations - 1) { convIndex++; }
     }
+
 }

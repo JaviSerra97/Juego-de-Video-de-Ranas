@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CharacterController : MonoBehaviour
+public class MyCharacterController : MonoBehaviour
 {
     public string vAxis;
     public string hAxis;
@@ -14,6 +14,9 @@ public class CharacterController : MonoBehaviour
     private Vector3 desp;
     public bool canInteract = false;
     private ConversationManager convManager;
+    public DialogueManager diaManager;
+    private bool axisPressed = false;
+    private bool isInteracting = false;
 
     private void Awake()
     {
@@ -22,22 +25,39 @@ public class CharacterController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (isInteracting) { return; }
         desp = new Vector3(Input.GetAxisRaw(hAxis),0,Input.GetAxisRaw(vAxis)) * moveSpeed * Time.deltaTime;
         rb.MovePosition(rb.position + desp);
     }
 
     private void Update()
     {
-        if(Input.GetAxisRaw(actionAxis) != 0 && canInteract)
+        if(Input.GetAxisRaw(actionAxis) != 0)
         {
-            StartInteraction();
+            axisPressed = true;
+            if (canInteract) { StartConversation(); }
+        }
+        else
+        {
+            if (axisPressed && isInteracting)
+            {
+                axisPressed = false;
+                diaManager.ReadNext();
+            }
         }
     }
 
-    void StartInteraction()
+    void StartConversation()
     {
+        isInteracting = true;
         canInteract = false;
         convManager.StartConv();
+    }
+
+    public void EndInteraction()
+    {
+        isInteracting = false;
+        canInteract = true;
     }
 
     private void OnTriggerEnter(Collider other)
@@ -51,7 +71,7 @@ public class CharacterController : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.tag == "Interactable") 
+        if (other.tag == "NPC") 
         {
             canInteract = false;
             convManager = null;

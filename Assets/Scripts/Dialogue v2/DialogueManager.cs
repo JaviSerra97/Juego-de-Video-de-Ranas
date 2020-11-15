@@ -7,16 +7,16 @@ public class DialogueManager : MonoBehaviour
 {
     public TextMeshProUGUI speakerName;
     public TextMeshProUGUI dialogue;
-    public TextMeshProUGUI navButtonText;
     public Image speakerSprite;
     public float textSpeed;
-    public CharacterController player;
+    public MyCharacterController player;
 
     private int currentIndex;
     private Conversation currentConv;
     private static DialogueManager instance;
     private Animator anim;
     private Coroutine typing;
+    private bool complete = true;
 
     private void Awake()
     {
@@ -35,40 +35,42 @@ public class DialogueManager : MonoBehaviour
         instance.currentConv = conv;
         instance.speakerName.text = "";
         instance.dialogue.text = "";
-        instance.navButtonText.text = "CONTINUE";
 
         instance.ReadNext();
     }
 
     public void ReadNext()
     {
-        if(currentIndex > currentConv.GetLength()) 
+        if (complete)
         {
-            instance.anim.SetBool("StartConv", false);
-            player.canInteract = true;
-            return; 
-        }
+            if (currentIndex > currentConv.GetLength())
+            {
+                instance.anim.SetBool("StartConv", false);
+                player.EndInteraction();
+                return;
+            }
 
-        speakerName.text = currentConv.GetLineByIndex(currentIndex).speaker.GetName();
+            speakerName.text = currentConv.GetLineByIndex(currentIndex).speaker.GetName();
 
-        if(typing == null)
-        {
-            typing = instance.StartCoroutine(TypeText(currentConv.GetLineByIndex(currentIndex).dialogue));
+            if (typing == null)
+            {
+                typing = instance.StartCoroutine(TypeText(currentConv.GetLineByIndex(currentIndex).dialogue));
+            }
+            else
+            {
+                instance.StopCoroutine(typing);
+                typing = null;
+                typing = instance.StartCoroutine(TypeText(currentConv.GetLineByIndex(currentIndex).dialogue));
+            }
+            speakerSprite.sprite = currentConv.GetLineByIndex(currentIndex).speaker.GetSprite();
+            currentIndex++;
         }
-        else
-        {
-            instance.StopCoroutine(typing);
-            typing = null;
-            typing = instance.StartCoroutine(TypeText(currentConv.GetLineByIndex(currentIndex).dialogue));
-        }
-        speakerSprite.sprite = currentConv.GetLineByIndex(currentIndex).speaker.GetSprite();
-        currentIndex++;
     }
 
     private IEnumerator TypeText(string text)
     {
         dialogue.text = "";
-        bool complete = false;
+        complete = false;
         int index = 0;
 
         while (!complete)
