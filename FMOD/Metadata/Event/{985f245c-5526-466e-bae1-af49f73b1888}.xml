@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{985f245c-5526-466e-bae1-af49f73b1888}">
 		<property name="name">
 			<value>movement</value>
@@ -63,8 +63,8 @@
 	<object class="MarkerTrack" id="{80d86e41-bb53-47e2-ae3c-c18c5a729b4b}" />
 	<object class="GroupTrack" id="{d06b1734-8f3d-47b5-931b-9e09b127fe22}">
 		<relationship name="modules">
-			<destination>{68582c92-71d1-49a5-807a-7cde9ad7c306}</destination>
 			<destination>{f643341d-591f-471c-b1cd-164241c8c40e}</destination>
+			<destination>{68582c92-71d1-49a5-807a-7cde9ad7c306}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{6687c108-7d61-4216-8662-8b4bbee50c8c}</destination>
@@ -73,8 +73,8 @@
 	<object class="Timeline" id="{ef174458-3c2f-4312-a050-22fc502cf1ea}" />
 	<object class="ParameterProxy" id="{105040c0-40ce-4800-8345-f06a0f0f7039}">
 		<relationship name="modules">
-			<destination>{68582c92-71d1-49a5-807a-7cde9ad7c306}</destination>
 			<destination>{f643341d-591f-471c-b1cd-164241c8c40e}</destination>
+			<destination>{68582c92-71d1-49a5-807a-7cde9ad7c306}</destination>
 		</relationship>
 		<relationship name="preset">
 			<destination>{e24da67e-0c3b-4784-b17e-5bd09194f993}</destination>
@@ -97,20 +97,20 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{22f69647-db2b-4fe7-9f61-8f7646ec173b}" />
-	<object class="SingleSound" id="{68582c92-71d1-49a5-807a-7cde9ad7c306}">
-		<property name="looping">
-			<value>true</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{39b3b751-b090-4739-bfe1-e56ebd1cb0ac}</destination>
-		</relationship>
-	</object>
 	<object class="SingleSound" id="{f643341d-591f-471c-b1cd-164241c8c40e}">
 		<property name="start">
 			<value>1</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{3ce65d79-2a11-4aa6-94db-9d2b662b8901}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{68582c92-71d1-49a5-807a-7cde9ad7c306}">
+		<property name="looping">
+			<value>true</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{39b3b751-b090-4739-bfe1-e56ebd1cb0ac}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{6687c108-7d61-4216-8662-8b4bbee50c8c}">

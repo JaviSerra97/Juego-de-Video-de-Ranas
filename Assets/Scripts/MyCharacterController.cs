@@ -17,17 +17,23 @@ public class MyCharacterController : MonoBehaviour
     public DialogueManager diaManager;
     private bool axisPressed = false;
     private bool isInteracting = false;
+    private Animator anim;
+    public AudioManager audioManager;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
+        anim = GetComponent<Animator>();
     }
 
     private void FixedUpdate()
     {
         if (isInteracting) { return; }
-        desp = new Vector3(Input.GetAxisRaw(hAxis),0,Input.GetAxisRaw(vAxis)) * moveSpeed * Time.deltaTime;
+
+        desp = new Vector3(Input.GetAxisRaw(hAxis), 0, Input.GetAxisRaw(vAxis)) * moveSpeed * Time.deltaTime;
         rb.MovePosition(rb.position + desp);
+
+        MovementAnimations(desp);
     }
 
     private void Update()
@@ -58,6 +64,51 @@ public class MyCharacterController : MonoBehaviour
     {
         isInteracting = false;
         canInteract = true;
+    }
+
+    void MovementAnimations(Vector3 desp)
+    {
+        if (desp == Vector3.zero) 
+        {
+            //audioManager.StopMovementAudio();
+            anim.SetBool("Walking", false); 
+        }
+        else 
+        {
+            //audioManager.PlayMovementAudio();
+            anim.SetBool("Walking", true);
+            if (desp.x > 0.2f)
+            {
+                anim.SetBool("WalkFront", false);
+                anim.SetBool("WalkBack", false);
+                anim.SetBool("WalkLeft", false);
+                anim.SetBool("WalkRight", true);
+            }
+            else if (desp.x < -0.2f)
+            {
+                anim.SetBool("WalkFront", false);
+                anim.SetBool("WalkBack", false);
+                anim.SetBool("WalkRight", false);
+                anim.SetBool("WalkLeft", true);
+            }
+            else
+            {
+                if ((desp.z > 0.2f))
+                {
+                    anim.SetBool("WalkBack", false);
+                    anim.SetBool("WalkRight", false);
+                    anim.SetBool("WalkLeft", false);
+                    anim.SetBool("WalkFront", true);
+                }
+                if ((desp.z < -0.2f))
+                {
+                    anim.SetBool("WalkRight", false);
+                    anim.SetBool("WalkLeft", false);
+                    anim.SetBool("WalkFront", false);
+                    anim.SetBool("WalkBack", true);
+                }
+            }
+        }
     }
 
     private void OnTriggerEnter(Collider other)

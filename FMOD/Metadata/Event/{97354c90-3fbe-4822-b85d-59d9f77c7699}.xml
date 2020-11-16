@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{97354c90-3fbe-4822-b85d-59d9f77c7699}">
 		<property name="name">
 			<value>open_notebook</value>
