@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.01.00">
+<objects serializationModel="Studio.02.00.00">
 	<object class="Event" id="{dededc09-c841-4ac9-a09b-20a8d2016406}">
 		<property name="name">
 			<value>steps_marble</value>
@@ -121,6 +121,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{952a2fe5-abcf-4966-8203-ecca7850e369}">
+		<property name="volume">
+			<value>-7.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -141,7 +144,11 @@
 			<destination>{3d2dcab3-54d2-4830-8a00-0403b4851d87}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{42fe3339-85db-4708-8eea-de9893b72213}" />
+	<object class="MixerBusPanner" id="{42fe3339-85db-4708-8eea-de9893b72213}">
+		<property name="surroundPanDirection">
+			<value>-174.957535</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{48a99bb4-4374-4a0b-8226-90c0db8ddeca}" />
 	<object class="SingleSound" id="{8f6f21a4-ccd3-4d7c-937a-e22cee8aa787}">
 		<relationship name="audioFile">
@@ -221,6 +228,16 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{369ceccf-ef71-48e4-a9a7-950c36b8503e}" />
-	<object class="SpatialiserEffect" id="{3d2dcab3-54d2-4830-8a00-0403b4851d87}" />
+	<object class="SpatialiserEffect" id="{3d2dcab3-54d2-4830-8a00-0403b4851d87}">
+		<property name="maximumDistance">
+			<value>80</value>
+		</property>
+		<property name="soundSize">
+			<value>2</value>
+		</property>
+		<property name="minimumExtent">
+			<value>120</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{fa15f7a2-14e5-46c7-a498-22a00fa889a2}" />
 </objects>

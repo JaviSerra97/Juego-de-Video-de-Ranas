@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.01.00">
+<objects serializationModel="Studio.02.00.00">
 	<object class="Event" id="{fe47eb1e-0597-465b-83d0-7f1166747e85}">
 		<property name="name">
 			<value>draw</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{b8672efb-253e-45bd-afa6-fe6fee023c6e}</destination>
@@ -138,7 +138,6 @@
 	<object class="MixerBusEffectChain" id="{a3ad672d-edde-435b-acae-424d1a0d8ed0}">
 		<relationship name="effects">
 			<destination>{49b30acb-08dc-4490-89e4-156f8e62e816}</destination>
-			<destination>{e904149e-fd55-4e31-9e27-fe30728528af}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d0ef3925-0fb7-4c74-9267-f486a8f3971e}" />
@@ -185,6 +184,5 @@
 	</object>
 	<object class="MixerBusPanner" id="{34274d4f-e6ff-485b-8a2b-97d92f24dc35}" />
 	<object class="MixerBusFader" id="{49b30acb-08dc-4490-89e4-156f8e62e816}" />
-	<object class="SpatialiserEffect" id="{e904149e-fd55-4e31-9e27-fe30728528af}" />
 	<object class="MixerBusFader" id="{a6c38ac4-9875-42ce-a093-005cf49242a6}" />
 </objects>

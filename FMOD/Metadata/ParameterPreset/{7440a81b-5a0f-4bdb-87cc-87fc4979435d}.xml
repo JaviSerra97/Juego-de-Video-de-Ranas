@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{7440a81b-5a0f-4bdb-87cc-87fc4979435d}">
+		<property name="name">
+			<value>capas</value>
+		</property>
+		<relationship name="folder">
+			<destination>{289125dc-9cc0-4417-9d22-66b2853a1b1c}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{9983a28c-656e-4cf7-9722-6727a4333c64}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{9983a28c-656e-4cf7-9722-6727a4333c64}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.060000002384185791</value>
+		</property>
+	</object>
+</objects>

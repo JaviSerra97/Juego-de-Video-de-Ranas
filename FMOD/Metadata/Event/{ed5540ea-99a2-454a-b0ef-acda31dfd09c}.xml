@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.01.00">
+<objects serializationModel="Studio.02.00.00">
 	<object class="Event" id="{ed5540ea-99a2-454a-b0ef-acda31dfd09c}">
 		<property name="name">
 			<value>steps_wood</value>
@@ -132,6 +132,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{5fb7decb-b147-41bc-9f46-eec5512b72e4}">
+		<property name="volume">
+			<value>-2</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>

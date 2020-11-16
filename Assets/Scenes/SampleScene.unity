@@ -784,6 +784,7 @@ GameObject:
   m_Component:
   - component: {fileID: 647049919}
   - component: {fileID: 647049918}
+  - component: {fileID: 647049920}
   m_Layer: 0
   m_Name: AudioManager
   m_TagString: Untagged
@@ -803,8 +804,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82e86417a2a022e4c9fe531038b30a1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  music: event:/SFX/awe
+  music: event:/Music
   movement: event:/SFX/movement
+  closeDialogue: event:/SFX/close_dialogue
+  closeNotebook: event:/SFX/close_notebook
+  draw: event:/SFX/draw
+  interactArt: event:/SFX/interact_art
+  munching: event:/SFX/munching
+  openDialogue: event:/SFX/open_dialogue
+  openFood: event:/SFX/open_food
+  openNotebook: event:/SFX/open_notebook
+  pens: event:/SFX/pens
+  sitOnBench: event:/SFX/sit_on_bench
+  spriteTurn: event:/SFX/sprite_turn
+  stepsMarble: event:/SFX/steps_marble
+  stepsWood: event:/SFX/steps_wood
+  typeWriter: event:/SFX/typewrite
+  musicLayers: 0
 --- !u!4 &647049919
 Transform:
   m_ObjectHideFlags: 0
@@ -819,6 +835,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &647049920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647049917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Emitters: []
+  TriggerEvent: 0
 --- !u!1 &662095576
 GameObject:
   m_ObjectHideFlags: 0
