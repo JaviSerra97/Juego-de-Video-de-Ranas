@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{f188ef3e-6db9-495b-8826-fb8b22177004}">
+		<property name="assetPath">
+			<value>paso_madera_marble_low_4.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.11040816326530613</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{cdbdfdb5-3b7e-49b6-bb15-c7fe31e9aa7e}</destination>
+		</relationship>
+	</object>
+</objects>
