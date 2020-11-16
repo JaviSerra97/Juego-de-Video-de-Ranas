@@ -8,23 +8,30 @@ public class AudioManager : MonoBehaviour
     public string movement;
 
     FMOD.Studio.EventInstance musicEV;
-    //FMOD.Studio.EventInstance movementMusic;
+    FMOD.Studio.EventInstance movementMusic;
 
     private bool movementActivated = false;
+    private Transform cameraPos;
 
     void Start()
     {
+        cameraPos = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Transform>();
+
         musicEV = FMODUnity.RuntimeManager.CreateInstance(music);
-        musicEV.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject.transform));
+        musicEV.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(cameraPos));
         musicEV.start();
         
-        /*
+        
         movementMusic = FMODUnity.RuntimeManager.CreateInstance(movement);
-        movementMusic.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject.transform));
-        */
+        //movementMusic.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(cameraPos));
     }
 
-    /*public void UnlockMusic()
+    private void Update()
+    {
+        movementMusic.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(cameraPos));
+    }
+
+    public void UnlockMusic()
     {
         musicEV.setParameterByName("Unlock", 1f);
     }
@@ -35,7 +42,6 @@ public class AudioManager : MonoBehaviour
         {
             movementMusic.start();
             movementActivated = true;
-            Debug.Log("Play");
         }
     }
     public void StopMovementAudio()
@@ -44,8 +50,7 @@ public class AudioManager : MonoBehaviour
         {
             movementMusic.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
             movementActivated = false;
-            Debug.Log("Stop");
         }
     }
-    */
+    
 }

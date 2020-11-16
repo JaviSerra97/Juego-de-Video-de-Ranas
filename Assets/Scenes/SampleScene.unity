@@ -803,7 +803,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82e86417a2a022e4c9fe531038b30a1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  music: event:/SFX/movement
+  music: event:/SFX/awe
   movement: event:/SFX/movement
 --- !u!4 &647049919
 Transform:

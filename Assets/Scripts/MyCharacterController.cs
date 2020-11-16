@@ -70,12 +70,12 @@ public class MyCharacterController : MonoBehaviour
     {
         if (desp == Vector3.zero) 
         {
-            //audioManager.StopMovementAudio();
+            audioManager.StopMovementAudio();
             anim.SetBool("Walking", false); 
         }
         else 
         {
-            //audioManager.PlayMovementAudio();
+            audioManager.PlayMovementAudio();
             anim.SetBool("Walking", true);
             if (desp.x > 0.2f)
             {
