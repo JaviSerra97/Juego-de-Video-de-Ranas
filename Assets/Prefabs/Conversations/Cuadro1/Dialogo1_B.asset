@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abc7a3d44273a0d419eb0bf3836d43d8, type: 3}
+  m_Name: Dialogo1_B
+  m_EditorClassIdentifier: 
+  linesList:
+  - speaker: {fileID: 11400000, guid: c4d6fbc9335d627408f821c4c08babf5, type: 2}
+    dialogue: "\xBFHola? \xBFMe oye?"
+  - speaker: {fileID: 11400000, guid: 96aa8c0e842e0ae4ea665d6ac082c8ae, type: 2}
+    dialogue: "\xA1Ah! Peque\xF1\xEDn, me has sobresaltado. \xBFTe has perdido?"
+  - speaker: {fileID: 11400000, guid: bd87e6a96c7c4764a951da6a51105f4a, type: 2}
+    dialogue: "\xBFQu\xE9 es sobresa\u2026Sobresalatado?"
+  - speaker: {fileID: 11400000, guid: 7f9045a6e74208e43b20e1fe9aef4787, type: 2}
+    dialogue: "Jajaja. Es que me he asustado al verte, no te esperaba ah\xED. \xBFNecesitas
+      ayuda?"
+  - speaker: {fileID: 11400000, guid: 95b9aabc805a836409fd24dfe467a3a0, type: 2}
+    dialogue: "No, solo quer\xEDa ver el cuadro y usted es muy alto. \xA1No puedo
+      verlo!"
+  - speaker: {fileID: 11400000, guid: 8d84b2571902b194bb378382dc0ac074, type: 2}
+    dialogue: 'Por supuesto. Te dejo que lo disfrutes. '
+  - speaker: {fileID: 11400000, guid: e9c27979d3cf99747b2c15fea24b7c26, type: 2}
+    dialogue: "Adem\xE1s, esos ba\xF1os no se van a fregar solos. Ten cuidado, peque\xF1o."
+  - speaker: {fileID: 11400000, guid: a27ddf060f47a2c4f924609dd395cd52, type: 2}
+    dialogue: "Adi\xF3s... (Qu\xE9 se\xF1or m\xE1s raro)"

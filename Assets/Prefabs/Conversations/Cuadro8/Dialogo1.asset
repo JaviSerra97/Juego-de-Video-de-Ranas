@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abc7a3d44273a0d419eb0bf3836d43d8, type: 3}
+  m_Name: Dialogo1
+  m_EditorClassIdentifier: 
+  linesList:
+  - speaker: {fileID: 11400000, guid: fdc0aed36a5ff174085a88261ed7d290, type: 2}
+    dialogue: "Que rollo, est\xE1n lavando las s\xE1banas. "
+  - speaker: {fileID: 11400000, guid: 22119d97a107c1c4082240b88d790828, type: 2}
+    dialogue: "Jo, yo odio cuando tengo que ayudar a pap\xE1 a cambiarlas."
+  - speaker: {fileID: 11400000, guid: a27ddf060f47a2c4f924609dd395cd52, type: 2}
+    dialogue: "\xBFPor qu\xE9 hay que hacerlo cada semana? \xA1Si no pasa nada!"
+  - speaker: {fileID: 11400000, guid: bd87e6a96c7c4764a951da6a51105f4a, type: 2}
+    dialogue: "Pero parece que se lo est\xE1n pasando bien. "
+  - speaker: {fileID: 11400000, guid: 6cc78bc599367be42897b9ce33c486f1, type: 2}
+    dialogue: "\xA1Eh! \xA1Oiga! \xBFNecesitan ayuda?"
+  - speaker: {fileID: 11400000, guid: 2748c141a284a3148a7edc9f63828f25, type: 2}
+    dialogue: "\xA1Tsssss! Baja la voz. "
+  - speaker: {fileID: 11400000, guid: 39207bbea5bcc0d49bc600521d222494, type: 2}
+    dialogue: "No le hag\xE1is caso, siempre est\xE1 enfadado."
+  - speaker: {fileID: 11400000, guid: 95b9aabc805a836409fd24dfe467a3a0, type: 2}
+    dialogue: 'Aunque creo que en el fondo es buena persona. '
+  - speaker: {fileID: 11400000, guid: 924074422e798a24aa459478bbb6a392, type: 2}
+    dialogue: "Bueno, \xBFquer\xE9is que os ayude entonces o no?"
+  - speaker: {fileID: 11400000, guid: 924074422e798a24aa459478bbb6a392, type: 2}
+    dialogue: "\u2026"
+  - speaker: {fileID: 11400000, guid: bd87e6a96c7c4764a951da6a51105f4a, type: 2}
+    dialogue: "Me lo tomar\xE9 como un no. "
+  - speaker: {fileID: 11400000, guid: 22119d97a107c1c4082240b88d790828, type: 2}
+    dialogue: "Tengo que acabar el reto del museo, as\xED que me marcho ya, lo siento."
+  - speaker: {fileID: 11400000, guid: 924074422e798a24aa459478bbb6a392, type: 2}
+    dialogue: "\xA1Que pas\xE9is un buen d\xEDa! "

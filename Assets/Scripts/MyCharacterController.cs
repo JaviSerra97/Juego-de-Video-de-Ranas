@@ -25,13 +25,17 @@ public class MyCharacterController : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         anim = GetComponent<Animator>();
     }
-
+    
     private void FixedUpdate()
     {
         if (isInteracting) { return; }
 
-        desp = new Vector3(Input.GetAxisRaw(hAxis), 0, Input.GetAxisRaw(vAxis)) * moveSpeed * Time.deltaTime;
-        rb.MovePosition(rb.position + desp);
+        desp = new Vector3(Input.GetAxisRaw(hAxis), 0, Input.GetAxisRaw(vAxis));
+
+        if (desp.x < 0.2f && desp.x > -0.2f) { desp.x = 0; }
+        if (desp.z < 0.2f && desp.z > -0.2f) { desp.z = 0; }
+
+        rb.MovePosition(rb.position + (desp * moveSpeed * Time.deltaTime));
 
         MovementAnimations(desp);
     }
@@ -113,7 +117,7 @@ public class MyCharacterController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Interactable")
+        if (other.tag == "NPC")
         {
             canInteract = true;
             convManager = other.gameObject.GetComponent<ConversationManager>();

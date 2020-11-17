@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abc7a3d44273a0d419eb0bf3836d43d8, type: 3}
+  m_Name: Dialogo2
+  m_EditorClassIdentifier: 
+  linesList:
+  - speaker: {fileID: 11400000, guid: 54d2169f5d1a22c44be7b3322e6dbfe6, type: 2}
+    dialogue: "Otro d\xEDa m\xE1s aqu\xED\u2026"
+  - speaker: {fileID: 11400000, guid: 5df46bbef4296be4599d077ccad40b0c, type: 2}
+    dialogue: Aunque lo haya visto mil veces, este sigue siendo mi favorito.
+  - speaker: {fileID: 11400000, guid: 5df46bbef4296be4599d077ccad40b0c, type: 2}
+    dialogue: "Se parece tanto a ella\u2026"
+  - speaker: {fileID: 11400000, guid: 5df46bbef4296be4599d077ccad40b0c, type: 2}
+    dialogue: "\xA1Ay, ojal\xE1 estar en casa! "
+  - speaker: {fileID: 11400000, guid: b62335d7f278b244098f777fed00cc63, type: 2}
+    dialogue: "Pasando el d\xEDa en casa con mi mujer y mi hija\u2026 "
+  - speaker: {fileID: 11400000, guid: b62335d7f278b244098f777fed00cc63, type: 2}
+    dialogue: "Cocinando, limpiando todos juntos, viendo una pel\xEDcula, jugando\u2026"
+  - speaker: {fileID: 11400000, guid: 918e83f9ced72cc4ca063ed532bd4e03, type: 2}
+    dialogue: "\xA1Aqu\xED solo hay ni\xF1atos maleducados correteando de un lado
+      a otro! "
+  - speaker: {fileID: 11400000, guid: 675dfddf89fe57c40ab357b4642e8cf6, type: 2}
+    dialogue: "\xBFC\xF3mo que ni\xF1ato?"
+  - speaker: {fileID: 11400000, guid: 2748c141a284a3148a7edc9f63828f25, type: 2}
+    dialogue: "\xA1Pero bueno! \xBFEstabas espiando? \xA1Largo de aqu\xED!"
+  - speaker: {fileID: 11400000, guid: 39207bbea5bcc0d49bc600521d222494, type: 2}
+    dialogue: "Mejor me voy\u2026"
