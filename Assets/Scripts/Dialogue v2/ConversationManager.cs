@@ -7,11 +7,12 @@ public class ConversationManager : MonoBehaviour
     public Conversation[] listOfConversations;
     private int limitOfConversations;
     private int convIndex = 0;
-
+    
     void Start()
     {
         convIndex = 0;
         limitOfConversations = listOfConversations.Length;
+        
     }
 
     public void StartConv()
@@ -19,5 +20,4 @@ public class ConversationManager : MonoBehaviour
         DialogueManager.StartConversation(listOfConversations[convIndex]);
         if(convIndex < limitOfConversations - 1) { convIndex++; }
     }
-
 }

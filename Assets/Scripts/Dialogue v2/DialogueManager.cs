@@ -39,6 +39,12 @@ public class DialogueManager : MonoBehaviour
         instance.ReadNext();
     }
 
+    public int GetConversationLine()
+    {
+        int numOfLine = currentIndex;
+        return numOfLine;
+    }
+
     public void ReadNext()
     {
         if (complete)

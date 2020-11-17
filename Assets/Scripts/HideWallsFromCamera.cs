@@ -8,15 +8,33 @@ public class HideWallsFromCamera : MonoBehaviour
     public Transform[] obstructions;
 
     private int oldHitsNumber;
-
+    public bool canHide = false;
     private void Start()
     {
         oldHitsNumber = 0;
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.H))
+        {
+            canHide = !canHide;
+        }
+    }
+
     private void LateUpdate()
     {
-        ViewObstructed();
+        if (canHide) 
+        { 
+            ViewObstructed();
+        }
+        else
+        {
+            for (int i = 0; i < obstructions.Length; i++)
+            {
+                obstructions[i].gameObject.GetComponent<MeshRenderer>().shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.On;
+            }
+        }
     }
 
     void ViewObstructed()
