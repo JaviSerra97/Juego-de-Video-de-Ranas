@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abc7a3d44273a0d419eb0bf3836d43d8, type: 3}
+  m_Name: Dialogo4
+  m_EditorClassIdentifier: 
+  linesList:
+  - speaker: {fileID: 11400000, guid: 88aecfd1a7ae0c34e96f04d62bbe2896, type: 2}
+    dialogue: "\xA1No tiene cabeza! \xA1Se le ha perdido! "
+  - speaker: {fileID: 11400000, guid: 88aecfd1a7ae0c34e96f04d62bbe2896, type: 2}
+    dialogue: "\xBFC\xF3mo no se han dado cuenta?"
+  - speaker: {fileID: 11400000, guid: 924074422e798a24aa459478bbb6a392, type: 2}
+    dialogue: "\xA1No te preocupes, yo te ayudo! "
+  - speaker: {fileID: 11400000, guid: 3b7962873ac77694ea9cf19d9d85d525, type: 2}
+    dialogue: "Vale, le pondr\xE9 la cabeza de un animal. "
+  - speaker: {fileID: 11400000, guid: 3b7962873ac77694ea9cf19d9d85d525, type: 2}
+    dialogue: "Mmmm\u2026 \xBFHur\xF3n? \xBFFoca? \xBFSapo?"
+  - speaker: {fileID: 11400000, guid: 924074422e798a24aa459478bbb6a392, type: 2}
+    dialogue: "\xA1S\xED! Lo tengo."
+  - speaker: {fileID: 11400000, guid: 3b7962873ac77694ea9cf19d9d85d525, type: 2}
+    dialogue: "As\xED, as\xE1\u2026 Aj\xE1, perfecto. "
+  - speaker: {fileID: 11400000, guid: b50e44a4eeab2a54697646f096539790, type: 2}
+    dialogue: "As\xED, as\xE1\u2026 Aj\xE1, perfecto. "
+  - speaker: {fileID: 11400000, guid: 924074422e798a24aa459478bbb6a392, type: 2}
+    dialogue: "\xA1Ya est\xE1s arreglada! \xA1P\xE1salo bien con tu silla!"

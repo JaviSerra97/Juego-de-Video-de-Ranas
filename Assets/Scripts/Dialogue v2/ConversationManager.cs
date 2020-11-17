@@ -5,12 +5,13 @@ using UnityEngine;
 public class ConversationManager : MonoBehaviour
 {
     public Conversation[] listOfConversations;
-    public int limitOfConversations;
+    private int limitOfConversations;
     private int convIndex = 0;
 
-    void Awake()
+    void Start()
     {
         convIndex = 0;
+        limitOfConversations = listOfConversations.Length;
     }
 
     public void StartConv()
