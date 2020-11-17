@@ -51,6 +51,24 @@ public class AudioManager : MonoBehaviour
     [FMODUnity.EventRef]
     public string typeWriter;
 
+    [FMODUnity.EventRef]
+    public string transformation;
+
+    [FMODUnity.EventRef]
+    public string transformationBack;
+
+    [FMODUnity.EventRef]
+    public string openMap;
+
+    [FMODUnity.EventRef]
+    public string closeMap;
+
+    [FMODUnity.EventRef]
+    public string notepad;
+
+    [FMODUnity.EventRef]
+    public string page;
+
     public float musicLayers = 0f;
 
     public Expression facepalm = new Expression("facepalm");
@@ -90,6 +108,7 @@ public class AudioManager : MonoBehaviour
 
         musicEV = FMODUnity.RuntimeManager.CreateInstance(music);
         musicEV.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(cameraPos));
+        musicEV.setParameterByName("capas", this.musicLayers);
         musicEV.start();
 
 
@@ -193,6 +212,36 @@ public class AudioManager : MonoBehaviour
     public void playTypeWrite()
     {
         playOneShot(typeWriter);
+    }
+
+    public void playTransformation()
+    {
+        playOneShot(transformation);
+    }
+
+    public void playTransformationBack()
+    {
+        playOneShot(transformationBack);
+    }
+
+    public void playOpenMap()
+    {
+        playOneShot(openMap);
+    }
+
+    public void playCloseMap()
+    {
+        playOneShot(closeMap);
+    }
+
+    public void playNotepad()
+    {
+        playOneShot(notepad);
+    }
+
+    public void playPage()
+    {
+        playOneShot(page);
     }
 
     public void playExpression(Expression expression)
