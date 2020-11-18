@@ -61,17 +61,21 @@ public class InteractionManager : MonoBehaviour
     void NormalToCubism()
     {
         anim.Play("NormalToCubism");
+        audioManager.playTransformation();
     }
     void CubismToNormal()
     {
+        audioManager.playTransformationBack();
         anim.Play("CubismToNormal");
     }
     void NormalToBlanchard()
     {
+        audioManager.playTransformation();
         anim.Play("NormalToBlanchard");
     }
     void BlanchardToNormal()
     {
+        audioManager.playTransformationBack();
         anim.Play("BlanchardToNormal");
     }
 
@@ -106,6 +110,7 @@ public class InteractionManager : MonoBehaviour
 
     void EatingSprite()
     {
+        audioManager.playMunching();
         anim.Play("Eating");
     }
 

@@ -92,7 +92,7 @@ public class AudioManager : MonoBehaviour
         }
 
         public string getName() { return this.name;  }
-        public string getFullpath() { return "" + name; }
+        public string getFullpath() { return "event:/SFX/expressions/" + name; }
     }
 
 
@@ -209,6 +209,7 @@ public class AudioManager : MonoBehaviour
         playOneShot(stepsWood);
     }
 
+    
     public void playTypeWrite()
     {
         playOneShot(typeWriter);
@@ -258,7 +259,7 @@ public class AudioManager : MonoBehaviour
     private void playOneShot(string name)
     {
         FMOD.Studio.EventInstance fmodEvent;
-        fmodEvent = FMODUnity.RuntimeManager.CreateInstance(music);
+        fmodEvent = FMODUnity.RuntimeManager.CreateInstance(name);
         fmodEvent.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(cameraPos));
         fmodEvent.start();
         fmodEvent.release();

@@ -17,6 +17,7 @@ public class DialogueManager : MonoBehaviour
     private Animator anim;
     private Coroutine typing;
     private bool complete = true;
+    private AudioManager audioManager;
 
     private void Awake()
     {
@@ -24,12 +25,18 @@ public class DialogueManager : MonoBehaviour
         {
             instance = this;
             anim = GetComponent<Animator>();
+            audioManager = GameObject.FindObjectOfType<AudioManager>().GetComponent<AudioManager>();
         }
-        else {Destroy(gameObject); } 
-        }
+        else {Destroy(gameObject); 
+        } 
+        
+    }
+
+
 
     public static void StartConversation(Conversation conv)
     {
+        instance.audioManager.playOpenDialogue();
         instance.anim.SetBool("StartConv", true);
         instance.currentIndex = 0;
         instance.currentConv = conv;
@@ -53,6 +60,7 @@ public class DialogueManager : MonoBehaviour
             {
                 instance.anim.SetBool("StartConv", false);
                 player.EndInteraction();
+                instance.audioManager.playCloseDialogue();
                 return;
             }
 
@@ -69,6 +77,16 @@ public class DialogueManager : MonoBehaviour
                 typing = instance.StartCoroutine(TypeText(currentConv.GetLineByIndex(currentIndex).dialogue));
             }
             speakerSprite.sprite = currentConv.GetLineByIndex(currentIndex).speaker.GetSprite();
+
+            /* audio expressions */
+            string expressionName = currentConv.GetLineByIndex(currentIndex).expression;
+            if (expressionName != "")
+            {
+                AudioManager.Expression expression = new AudioManager.Expression(expressionName);
+                audioManager.playExpression(expression);
+            }
+
+
             currentIndex++;
         }
     }
@@ -85,7 +103,14 @@ public class DialogueManager : MonoBehaviour
             index++;
             yield return new WaitForSeconds(textSpeed);
 
-            if(index == text.Length)
+            /* Play only 1/3 */
+            if(index % 3 == 0)
+            {
+                instance.audioManager.playTypeWrite();
+            }
+            
+
+            if (index == text.Length)
             {
                 complete = true;
             }

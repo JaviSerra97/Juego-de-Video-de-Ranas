@@ -10,6 +10,12 @@ public class VenusInteraction : MonoBehaviour
     public Transform layPos;
     private bool goLay;
     private bool isLaid;
+    private AudioManager audioManager;
+
+    public void Start()
+    {
+        audioManager = GameObject.FindObjectOfType<AudioManager>().GetComponent<AudioManager>();
+    }
 
     private void Update()
     {
@@ -33,10 +39,12 @@ public class VenusInteraction : MonoBehaviour
 
     void LaySprite()
     {
+        
         goLay = false;
         GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePosition;
         player.transform.position = layPos.position;
         player.GetComponent<Animator>().Play("Lay");
+        audioManager.playSitOnBench();
         isLaid = true;
     }
 }

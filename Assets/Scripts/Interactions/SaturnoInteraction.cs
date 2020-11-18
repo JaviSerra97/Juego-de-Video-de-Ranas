@@ -17,6 +17,7 @@ public class SaturnoInteraction : MonoBehaviour
     private Vector3 guardInitialPos;
     private bool isSat;
     private bool aux = false;
+    private AudioManager audioManager;
 
     public InteractionMarker marker;
     public ConversationManager convManager;
@@ -24,6 +25,7 @@ public class SaturnoInteraction : MonoBehaviour
     private void Start()
     {
         guardInitialPos = guard.transform.position;
+        audioManager = GameObject.FindObjectOfType<AudioManager>().GetComponent<AudioManager>();
     }
 
     private void Update()
@@ -82,6 +84,7 @@ public class SaturnoInteraction : MonoBehaviour
         GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePosition;
         player.transform.position = playerSitPos.position;
         player.GetComponent<Animator>().Play("Sit");
+        audioManager.playSitOnBench();
         isSat = true;
     }
 

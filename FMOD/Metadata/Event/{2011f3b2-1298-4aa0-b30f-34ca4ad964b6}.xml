@@ -5,7 +5,7 @@
 			<value>munching</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{b8672efb-253e-45bd-afa6-fe6fee023c6e}</destination>
@@ -171,7 +171,6 @@
 	<object class="MixerBusEffectChain" id="{6bb4adfb-794a-46a7-bfd6-4d3f5c3b14ce}">
 		<relationship name="effects">
 			<destination>{90e5ff0c-a036-4d75-92e0-d8b895daed56}</destination>
-			<destination>{bbd1ec1f-df29-4fd7-ac5f-9f7c10b9e6cd}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{9e9f1240-6d3e-4ff1-add6-18e4a867b4f6}" />
@@ -189,7 +188,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{db4f3a1f-4ea7-4a1c-9982-7c1e1235e152}" />
 	<object class="MixerBusFader" id="{90e5ff0c-a036-4d75-92e0-d8b895daed56}" />
-	<object class="SpatialiserEffect" id="{bbd1ec1f-df29-4fd7-ac5f-9f7c10b9e6cd}" />
 	<object class="MixerBusFader" id="{d6c97902-a7e9-4e7f-a531-745cdb326440}" />
 	<object class="MixerBusFader" id="{ed1fc941-5d5f-458c-b8d7-fd6ed7838635}" />
 </objects>

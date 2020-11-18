@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="Event" id="{ffab267c-ca44-45cb-a67f-cce2fa7a14e5}">
 		<property name="name">
-			<value>suprised</value>
+			<value>wow</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -99,10 +99,8 @@
 			<value>2.4000001</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{396cc075-4f3f-4488-ab37-fc5369de835c}</destination>
 			<destination>{126f71ed-a1ba-4ad5-ac20-3bf07e063c02}</destination>
 			<destination>{805eca8d-50c8-495f-aeeb-c0e6a7f88255}</destination>
-			<destination>{0bc259d9-ae36-4e07-8a7c-8a955fe99eca}</destination>
 			<destination>{6dfeeb36-5d6d-432e-ab1e-b1c6a8e43fb6}</destination>
 		</relationship>
 	</object>
@@ -128,11 +126,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{108caff2-2bc2-4ab8-b404-29651dab5076}" />
 	<object class="MixerBusFader" id="{be8b4bcd-1216-475d-b338-12ba5a69975b}" />
-	<object class="SingleSound" id="{396cc075-4f3f-4488-ab37-fc5369de835c}">
-		<relationship name="audioFile">
-			<destination>{a8c62f1e-7d2f-4ebc-9bdb-e9db4682665c}</destination>
-		</relationship>
-	</object>
 	<object class="SingleSound" id="{126f71ed-a1ba-4ad5-ac20-3bf07e063c02}">
 		<relationship name="audioFile">
 			<destination>{dd13c171-b2fd-4cda-b2d3-8b5adb9f4ab3}</destination>
@@ -141,11 +134,6 @@
 	<object class="SingleSound" id="{805eca8d-50c8-495f-aeeb-c0e6a7f88255}">
 		<relationship name="audioFile">
 			<destination>{44121a8a-c50d-4cb0-972a-b455d75885ae}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{0bc259d9-ae36-4e07-8a7c-8a955fe99eca}">
-		<relationship name="audioFile">
-			<destination>{d8ff1454-58dc-426d-9971-bed39f603517}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{6dfeeb36-5d6d-432e-ab1e-b1c6a8e43fb6}">
