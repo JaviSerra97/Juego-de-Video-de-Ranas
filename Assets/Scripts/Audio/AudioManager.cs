@@ -109,7 +109,7 @@ public class AudioManager : MonoBehaviour
         musicEV = FMODUnity.RuntimeManager.CreateInstance(music);
         musicEV.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(cameraPos));
         musicEV.setParameterByName("capas", this.musicLayers);
-        musicEV.start();
+        //musicEV.start();
 
 
         movementAudio = FMODUnity.RuntimeManager.CreateInstance(movement);
