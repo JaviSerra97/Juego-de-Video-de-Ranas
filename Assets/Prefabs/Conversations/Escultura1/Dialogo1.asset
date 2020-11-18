@@ -14,62 +14,62 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   linesList:
   - speaker: {fileID: 11400000, guid: 3fe07de915f534742a779a278e1eb9ed, type: 2}
-    expression: 
+    expression: gasp
     dialogue: "\xA1Est\xE1 chul\xEDsimo! "
   - speaker: {fileID: 11400000, guid: 6f4319c5ddd2cbb43a86f3f260ef027a, type: 2}
-    expression: happy
+    expression: 
     dialogue: "\xBFA que s\xED? Lo he visto desde all\xE1 y he venido corriendo. "
   - speaker: {fileID: 11400000, guid: 3fe07de915f534742a779a278e1eb9ed, type: 2}
-    expression: 
+    expression: surprised
     dialogue: "\xBFT\xFA crees que los leones son as\xED de verdad?"
   - speaker: {fileID: 11400000, guid: cc060fadd1f2cd842a92dafde3f890b7, type: 2}
     expression: 
     dialogue: "\xBFDe piedra?"
   - speaker: {fileID: 11400000, guid: fdc0aed36a5ff174085a88261ed7d290, type: 2}
-    expression: 
+    expression: facepalm
     dialogue: "\xA1Con alas!"
   - speaker: {fileID: 11400000, guid: cc060fadd1f2cd842a92dafde3f890b7, type: 2}
     expression: 
     dialogue: "\xBFC\xF3n alas? \xBFC\xF3mo van a tener alas?"
   - speaker: {fileID: 11400000, guid: bd87e6a96c7c4764a951da6a51105f4a, type: 2}
-    expression: 
+    expression: thinking
     dialogue: "No lo s\xE9, a lo mejor los que tienen alas se van volando y nunca
       vuelven."
   - speaker: {fileID: 11400000, guid: 75f4ed87f8706fa428855cc5234d6c52, type: 2}
     expression: 
     dialogue: "\xBFTe imaginas poder volar sobre uno?"
   - speaker: {fileID: 11400000, guid: 3fe07de915f534742a779a278e1eb9ed, type: 2}
-    expression: 
+    expression: gasp
     dialogue: "\xA1Podr\xEDamos ir sobre la ciudad! Llegar\xEDamos al cole en un
       segundo. "
   - speaker: {fileID: 11400000, guid: 75f4ed87f8706fa428855cc5234d6c52, type: 2}
     expression: 
     dialogue: "Todo el mundo tendr\xEDa envidia\u2026"
   - speaker: {fileID: 11400000, guid: 3fe07de915f534742a779a278e1eb9ed, type: 2}
-    expression: 
+    expression: emotion
     dialogue: "Querr\xEDan ser nuestros amigos\u2026"
   - speaker: {fileID: 11400000, guid: 75f4ed87f8706fa428855cc5234d6c52, type: 2}
     expression: 
     dialogue: "\xA1Podr\xEDamos organizar viajes con nuestro le\xF3n alado! "
   - speaker: {fileID: 11400000, guid: 3fe07de915f534742a779a278e1eb9ed, type: 2}
-    expression: 
+    expression: happy
     dialogue: "Y nos har\xEDamos ricos antes de darnos cuenta. "
   - speaker: {fileID: 11400000, guid: 75f4ed87f8706fa428855cc5234d6c52, type: 2}
     expression: 
     dialogue: "Poder comprar todas las chuches que quisi\xE9ramos, los juegos\u2026"
   - speaker: {fileID: 11400000, guid: bd87e6a96c7c4764a951da6a51105f4a, type: 2}
-    expression: 
+    expression: thinking
     dialogue: "\xBFLo pedimos para los Reyes Magos?"
   - speaker: {fileID: 11400000, guid: cc060fadd1f2cd842a92dafde3f890b7, type: 2}
     expression: 
     dialogue: "\xA1S\xED! Si lo pedimos los dos, en alguna de nuestras casas cae
       seguro. "
   - speaker: {fileID: 11400000, guid: bd87e6a96c7c4764a951da6a51105f4a, type: 2}
-    expression: 
+    expression: thinking
     dialogue: "El \xFAnico problema\u2026 es que a\xFAn falta mucho para navidad. "
   - speaker: {fileID: 11400000, guid: 4a18651143cc63047b2c5e9e53da59d8, type: 2}
     expression: 
     dialogue: "\xA1Tocar\xE1 hacer los deberes! "
   - speaker: {fileID: 11400000, guid: bd87e6a96c7c4764a951da6a51105f4a, type: 2}
-    expression: 
+    expression: sad
     dialogue: "Jo, qu\xE9 rollo\u2026"

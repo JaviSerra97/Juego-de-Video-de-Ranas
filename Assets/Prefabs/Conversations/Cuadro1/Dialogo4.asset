@@ -14,20 +14,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   linesList:
   - speaker: {fileID: 11400000, guid: 88aecfd1a7ae0c34e96f04d62bbe2896, type: 2}
+    expression: surprised
     dialogue: "\xA1No tiene cabeza! \xA1Se le ha perdido! "
   - speaker: {fileID: 11400000, guid: 88aecfd1a7ae0c34e96f04d62bbe2896, type: 2}
+    expression: wow
     dialogue: "\xBFC\xF3mo no se han dado cuenta?"
   - speaker: {fileID: 11400000, guid: 924074422e798a24aa459478bbb6a392, type: 2}
+    expression: proud
     dialogue: "\xA1No te preocupes, yo te ayudo! "
   - speaker: {fileID: 11400000, guid: 3b7962873ac77694ea9cf19d9d85d525, type: 2}
+    expression: emotion
     dialogue: "Vale, le pondr\xE9 la cabeza de un animal. "
   - speaker: {fileID: 11400000, guid: 3b7962873ac77694ea9cf19d9d85d525, type: 2}
+    expression: thinking
     dialogue: "Mmmm\u2026 \xBFHur\xF3n? \xBFFoca? \xBFSapo?"
   - speaker: {fileID: 11400000, guid: 924074422e798a24aa459478bbb6a392, type: 2}
+    expression: emotion
     dialogue: "\xA1S\xED! Lo tengo."
   - speaker: {fileID: 11400000, guid: 3b7962873ac77694ea9cf19d9d85d525, type: 2}
-    dialogue: "As\xED, as\xE1\u2026 Aj\xE1, perfecto. "
-  - speaker: {fileID: 11400000, guid: b50e44a4eeab2a54697646f096539790, type: 2}
+    expression: proud
     dialogue: "As\xED, as\xE1\u2026 Aj\xE1, perfecto. "
   - speaker: {fileID: 11400000, guid: 924074422e798a24aa459478bbb6a392, type: 2}
+    expression: rest
     dialogue: "\xA1Ya est\xE1s arreglada! \xA1P\xE1salo bien con tu silla!"

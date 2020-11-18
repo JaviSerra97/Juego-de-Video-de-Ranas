@@ -14,23 +14,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   linesList:
   - speaker: {fileID: 11400000, guid: 54d2169f5d1a22c44be7b3322e6dbfe6, type: 2}
+    expression: 
     dialogue: "Otro d\xEDa m\xE1s aqu\xED\u2026"
   - speaker: {fileID: 11400000, guid: 5df46bbef4296be4599d077ccad40b0c, type: 2}
+    expression: 
     dialogue: Aunque lo haya visto mil veces, este sigue siendo mi favorito.
   - speaker: {fileID: 11400000, guid: 5df46bbef4296be4599d077ccad40b0c, type: 2}
+    expression: 
     dialogue: "Se parece tanto a ella\u2026"
   - speaker: {fileID: 11400000, guid: 5df46bbef4296be4599d077ccad40b0c, type: 2}
+    expression: 
     dialogue: "\xA1Ay, ojal\xE1 estar en casa! "
   - speaker: {fileID: 11400000, guid: b62335d7f278b244098f777fed00cc63, type: 2}
+    expression: 
     dialogue: "Pasando el d\xEDa en casa con mi mujer y mi hija\u2026 "
   - speaker: {fileID: 11400000, guid: b62335d7f278b244098f777fed00cc63, type: 2}
+    expression: 
     dialogue: "Cocinando, limpiando todos juntos, viendo una pel\xEDcula, jugando\u2026"
   - speaker: {fileID: 11400000, guid: 918e83f9ced72cc4ca063ed532bd4e03, type: 2}
+    expression: 
     dialogue: "\xA1Aqu\xED solo hay ni\xF1atos maleducados correteando de un lado
       a otro! "
   - speaker: {fileID: 11400000, guid: 675dfddf89fe57c40ab357b4642e8cf6, type: 2}
+    expression: emotion
     dialogue: "\xBFC\xF3mo que ni\xF1ato?"
   - speaker: {fileID: 11400000, guid: 2748c141a284a3148a7edc9f63828f25, type: 2}
+    expression: 
     dialogue: "\xA1Pero bueno! \xBFEstabas espiando? \xA1Largo de aqu\xED!"
   - speaker: {fileID: 11400000, guid: 39207bbea5bcc0d49bc600521d222494, type: 2}
+    expression: rest
     dialogue: "Mejor me voy\u2026"

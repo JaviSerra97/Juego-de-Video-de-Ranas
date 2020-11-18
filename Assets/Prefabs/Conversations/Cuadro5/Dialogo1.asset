@@ -14,26 +14,38 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   linesList:
   - speaker: {fileID: 11400000, guid: 95b9aabc805a836409fd24dfe467a3a0, type: 2}
+    expression: gasp
     dialogue: "\xA1Es enorme! "
   - speaker: {fileID: 11400000, guid: bd87e6a96c7c4764a951da6a51105f4a, type: 2}
+    expression: wow
     dialogue: "Madre m\xEDa, pero \xBFc\xF3mo pintaron esto?"
   - speaker: {fileID: 11400000, guid: bd87e6a96c7c4764a951da6a51105f4a, type: 2}
+    expression: thinking
     dialogue: "Mmmm\u2026 \xBFseguro que es de verdad?"
   - speaker: {fileID: 11400000, guid: 88aecfd1a7ae0c34e96f04d62bbe2896, type: 2}
+    expression: gasp
     dialogue: "\xA1\xA1\xA1Las mininas!!! \xA1Pero si no hay ning\xFAn gato! "
   - speaker: {fileID: 11400000, guid: bd87e6a96c7c4764a951da6a51105f4a, type: 2}
+    expression: rest
     dialogue: "Seguro que se han equivocado\u2026"
   - speaker: {fileID: 11400000, guid: 3fe07de915f534742a779a278e1eb9ed, type: 2}
+    expression: proud
     dialogue: "Ya s\xE9, \xA1lo arreglar\xE9 yo! "
   - speaker: {fileID: 11400000, guid: 3b7962873ac77694ea9cf19d9d85d525, type: 2}
+    expression: 
     dialogue: "Vale, empiezo por aqu\xED\u2026 as\xED, genial."
   - speaker: {fileID: 11400000, guid: 3b7962873ac77694ea9cf19d9d85d525, type: 2}
+    expression: thinking
     dialogue: "Mmmmm. Aj\xE1, perfecto. "
   - speaker: {fileID: 11400000, guid: 3b7962873ac77694ea9cf19d9d85d525, type: 2}
+    expression: 
     dialogue: "Este por aqu\xED, este subido all\xE1\u2026"
   - speaker: {fileID: 11400000, guid: 3b7962873ac77694ea9cf19d9d85d525, type: 2}
+    expression: 
     dialogue: "Este por aqu\xED, este subido all\xE1\u2026"
   - speaker: {fileID: 11400000, guid: 3fe07de915f534742a779a278e1eb9ed, type: 2}
+    expression: proud
     dialogue: "\xA1Arreglado! "
   - speaker: {fileID: 11400000, guid: 924074422e798a24aa459478bbb6a392, type: 2}
+    expression: happy
     dialogue: "Seguro que as\xED me dan m\xE1s puntos, jejeje."

@@ -14,51 +14,74 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   linesList:
   - speaker: {fileID: 11400000, guid: 3fe07de915f534742a779a278e1eb9ed, type: 2}
+    expression: thinking
     dialogue: "Y yo os declaro mujer y mu\u2026"
   - speaker: {fileID: 11400000, guid: 8b2745246e4800543b1fe2dfbcdc8e99, type: 2}
+    expression: 
     dialogue: "Hola, chaval\xEDn. \xBFQu\xE9 haces por aqu\xED?"
   - speaker: {fileID: 11400000, guid: a27ddf060f47a2c4f924609dd395cd52, type: 2}
+    expression: 
     dialogue: "Ven\xEDa a ver el cuadro. \xBFY usted?"
   - speaker: {fileID: 11400000, guid: 8b2745246e4800543b1fe2dfbcdc8e99, type: 2}
+    expression: 
     dialogue: "Tambi\xE9n estoy viendo el cuadro. "
   - speaker: {fileID: 11400000, guid: 924074422e798a24aa459478bbb6a392, type: 2}
+    expression: emotion
     dialogue: "\xA1Es una boda! "
   - speaker: {fileID: 11400000, guid: cebb6914b27b98b41bc106f9cb9ac618, type: 2}
+    expression: 
     dialogue: "\xBFC-c\xF3mo que una boda? Solo est\xE1n paseando."
   - speaker: {fileID: 11400000, guid: a27ddf060f47a2c4f924609dd395cd52, type: 2}
+    expression: gasp
     dialogue: "\xBFNo lo ve? Van tooodo de blanco, \xA1se casan en la playa! "
   - speaker: {fileID: 11400000, guid: 3fe07de915f534742a779a278e1eb9ed, type: 2}
+    expression: happy
     dialogue: "Luego podr\xE1n ba\xF1arse, y hacer un castillo de arena gigante. "
   - speaker: {fileID: 11400000, guid: 3fe07de915f534742a779a278e1eb9ed, type: 2}
+    expression: 
     dialogue: "\xA1Est\xE1 super guay! "
   - speaker: {fileID: 11400000, guid: 8b2745246e4800543b1fe2dfbcdc8e99, type: 2}
+    expression: 
     dialogue: "Pero, hijo, si este cuadro tiene m\xE1s de cien a\xF1os. \xBFC\xF3mo
       se iban a casar dos mujeres en aquella \xE9poca?"
   - speaker: {fileID: 11400000, guid: c4cd2c1d1d866124d866a8ccf9d2d349, type: 2}
+    expression: proud
     dialogue: "\xBFPor qu\xE9 no?"
   - speaker: {fileID: 11400000, guid: 8b2745246e4800543b1fe2dfbcdc8e99, type: 2}
+    expression: 
     dialogue: 'Pues bueno, porque lo habitual es que se casasen una mujer y un hombre. '
   - speaker: {fileID: 11400000, guid: c4cd2c1d1d866124d866a8ccf9d2d349, type: 2}
+    expression: 
     dialogue: "\xBFY eso por qu\xE9?"
   - speaker: {fileID: 11400000, guid: 8b2745246e4800543b1fe2dfbcdc8e99, type: 2}
+    expression: 
     dialogue: "Porque siempre ha sido as\xED. "
   - speaker: {fileID: 11400000, guid: c4cd2c1d1d866124d866a8ccf9d2d349, type: 2}
+    expression: 
     dialogue: "\u2026"
   - speaker: {fileID: 11400000, guid: 8b2745246e4800543b1fe2dfbcdc8e99, type: 2}
+    expression: 
     dialogue: "Lo que digo es que en la antig\xFCedad, no era tan com\xFAn, e incluso
       se castigaba a la gente que lo hac\xEDa. "
   - speaker: {fileID: 11400000, guid: 22119d97a107c1c4082240b88d790828, type: 2}
+    expression: 
     dialogue: "Pues vaya\u2026 Esa gente deb\xEDa ser muy mala entonces. "
   - speaker: {fileID: 11400000, guid: 8b2745246e4800543b1fe2dfbcdc8e99, type: 2}
+    expression: 
     dialogue: "Bueno, s\xED que hab\xEDa cosas malas, pero tambi\xE9n cosas buenas. "
   - speaker: {fileID: 11400000, guid: 8b2745246e4800543b1fe2dfbcdc8e99, type: 2}
+    expression: 
     dialogue: "En cualquier caso, creo que las dos mujeres del cuadro son madre e
       hija, y solo est\xE1n paseando. "
   - speaker: {fileID: 11400000, guid: 22119d97a107c1c4082240b88d790828, type: 2}
+    expression: sad
     dialogue: "Si usted lo dice\u2026"
   - speaker: {fileID: 11400000, guid: 6c1d421212a6d7a458bfab5bea48356c, type: 2}
+    expression: 
     dialogue: "Que tengas un buen d\xEDa, hijo. \xA1Y lleva cuidado!"
   - speaker: {fileID: 11400000, guid: 924074422e798a24aa459478bbb6a392, type: 2}
+    expression: 
     dialogue: "\xA1Adi\xF3s!"
   - speaker: {fileID: 11400000, guid: bd87e6a96c7c4764a951da6a51105f4a, type: 2}
+    expression: tired
     dialogue: 'Seguro que es una boda. '

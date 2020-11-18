@@ -14,6 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   linesList:
   - speaker: {fileID: 11400000, guid: 95b9aabc805a836409fd24dfe467a3a0, type: 2}
+    expression: thinking
     dialogue: Disculpe.
   - speaker: {fileID: 11400000, guid: 80646d4470c2d6942bfe9a49fca5ee67, type: 2}
+    expression: 
     dialogue: "\u2026 (est\xE1 escuchando m\xFAsica)."

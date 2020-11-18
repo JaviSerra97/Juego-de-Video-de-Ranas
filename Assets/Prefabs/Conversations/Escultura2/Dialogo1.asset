@@ -14,24 +14,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   linesList:
   - speaker: {fileID: 11400000, guid: c4d6fbc9335d627408f821c4c08babf5, type: 2}
+    expression: worried
     dialogue: Vaya, se ha convertido en piedra.
   - speaker: {fileID: 11400000, guid: bd87e6a96c7c4764a951da6a51105f4a, type: 2}
+    expression: gasp
     dialogue: "\xA1O a lo mejor se ha pintado de blanco! "
   - speaker: {fileID: 11400000, guid: fdc0aed36a5ff174085a88261ed7d290, type: 2}
+    expression: facepalm
     dialogue: "O a lo mejor\u2026 solo es una estatua. "
   - speaker: {fileID: 11400000, guid: a27ddf060f47a2c4f924609dd395cd52, type: 2}
+    expression: 
     dialogue: "La verdad es que parece que est\xE1 c\xF3moda. "
   - speaker: {fileID: 11400000, guid: c99904d2ed0d68d42953a516f693bded, type: 2}
+    expression: tired
     dialogue: "Y ese banco\u2026"
   - speaker: {fileID: 11400000, guid: 924074422e798a24aa459478bbb6a392, type: 2}
+    expression: 
     dialogue: "As\xED podr\xEDa estar todo el d\xEDa\u2026 "
   - speaker: {fileID: 11400000, guid: 924074422e798a24aa459478bbb6a392, type: 2}
+    expression: happy
     dialogue: 'Sin tener que ir al cole. '
   - speaker: {fileID: 11400000, guid: 924074422e798a24aa459478bbb6a392, type: 2}
+    expression: 
     dialogue: "Sin tener que hacer la cama\u2026"
   - speaker: {fileID: 11400000, guid: 3fe07de915f534742a779a278e1eb9ed, type: 2}
+    expression: emotion
     dialogue: "\xA1Sin hacer deberes!"
   - speaker: {fileID: 11400000, guid: 22119d97a107c1c4082240b88d790828, type: 2}
+    expression: 
     dialogue: "Pero si me quedo todo el d\xEDa no podr\xE9 acabar el juego\u2026"
   - speaker: {fileID: 11400000, guid: 95b9aabc805a836409fd24dfe467a3a0, type: 2}
+    expression: proud
     dialogue: "Mejor me levanto. \xA1A\xFAn hay cosas por ver! "

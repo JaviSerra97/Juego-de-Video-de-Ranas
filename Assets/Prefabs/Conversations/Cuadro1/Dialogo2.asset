@@ -14,32 +14,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   linesList:
   - speaker: {fileID: 11400000, guid: 8d84b2571902b194bb378382dc0ac074, type: 2}
+    expression: 
     dialogue: "Oh, t\xFA otra vez, peque\xF1o."
   - speaker: {fileID: 11400000, guid: bd87e6a96c7c4764a951da6a51105f4a, type: 2}
+    expression: surprised
     dialogue: "\xBFQu\xE9 hay ah\xED?"
   - speaker: {fileID: 11400000, guid: 80646d4470c2d6942bfe9a49fca5ee67, type: 2}
+    expression: 
     dialogue: "\xBFD\xF3nde?"
   - speaker: {fileID: 11400000, guid: 95b9aabc805a836409fd24dfe467a3a0, type: 2}
+    expression: 
     dialogue: "Ah\xED, al final del pasillo."
   - speaker: {fileID: 11400000, guid: 7f9045a6e74208e43b20e1fe9aef4787, type: 2}
+    expression: 
     dialogue: "Es una sala m\xE1gica."
   - speaker: {fileID: 11400000, guid: 88aecfd1a7ae0c34e96f04d62bbe2896, type: 2}
+    expression: gasp
     dialogue: "\xBFM\xE1gica? \xA1Eso no es verdad!"
   - speaker: {fileID: 11400000, guid: 8d84b2571902b194bb378382dc0ac074, type: 2}
+    expression: 
     dialogue: Claro que es verdad. Por eso no se puede entrar.
   - speaker: {fileID: 11400000, guid: bd87e6a96c7c4764a951da6a51105f4a, type: 2}
+    expression: emotion
     dialogue: "\xBFPor qu\xE9 no?"
   - speaker: {fileID: 11400000, guid: 8d84b2571902b194bb378382dc0ac074, type: 2}
+    expression: 
     dialogue: "Porque la han cerrado para hacer cosas m\xE1gicas."
   - speaker: {fileID: 11400000, guid: bd87e6a96c7c4764a951da6a51105f4a, type: 2}
+    expression: wow
     dialogue: "\xBFQu\xE9 cosas m\xE1gicas?"
   - speaker: {fileID: 11400000, guid: 80646d4470c2d6942bfe9a49fca5ee67, type: 2}
+    expression: 
     dialogue: "De las que son muy poderosas pero pueden resultar peligrosas para
       los ni\xF1os."
   - speaker: {fileID: 11400000, guid: a27ddf060f47a2c4f924609dd395cd52, type: 2}
+    expression: thinking
     dialogue: "\xBFSeguro que no me est\xE1 mintiendo?"
   - speaker: {fileID: 11400000, guid: 7f9045a6e74208e43b20e1fe9aef4787, type: 2}
+    expression: 
     dialogue: "\xA1Claro que no! La magia est\xE1 en todas partes, sobre todo en
       los museos."
   - speaker: {fileID: 11400000, guid: fdc0aed36a5ff174085a88261ed7d290, type: 2}
+    expression: facepalm
     dialogue: "Est\xE1 loco..."

@@ -14,32 +14,47 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   linesList:
   - speaker: {fileID: 11400000, guid: 924074422e798a24aa459478bbb6a392, type: 2}
+    expression: gasp
     dialogue: "\xA1Hola! \xA1Qu\xE9 sombrero m\xE1s chulo!"
   - speaker: {fileID: 11400000, guid: 924074422e798a24aa459478bbb6a392, type: 2}
+    expression: 
     dialogue: "\u2026"
   - speaker: {fileID: 11400000, guid: 95b9aabc805a836409fd24dfe467a3a0, type: 2}
+    expression: surprised
     dialogue: "\xBFMe lo prestar\xEDas?"
   - speaker: {fileID: 11400000, guid: 95b9aabc805a836409fd24dfe467a3a0, type: 2}
+    expression: 
     dialogue: "\u2026"
   - speaker: {fileID: 11400000, guid: 22119d97a107c1c4082240b88d790828, type: 2}
+    expression: rest
     dialogue: "Bueno, vale\u2026 "
   - speaker: {fileID: 11400000, guid: 3fe07de915f534742a779a278e1eb9ed, type: 2}
+    expression: surprised
     dialogue: "\xBFY el traje? "
   - speaker: {fileID: 11400000, guid: 3fe07de915f534742a779a278e1eb9ed, type: 2}
+    expression: 
     dialogue: "\u2026"
   - speaker: {fileID: 11400000, guid: 924074422e798a24aa459478bbb6a392, type: 2}
+    expression: happy
     dialogue: "\xA1Qu\xE9 bien! Seguro que me queda\u2026"
   - speaker: {fileID: 11400000, guid: 924074422e798a24aa459478bbb6a392, type: 2}
+    expression: emotion
     dialogue: "\u2026 \xA1genial! \xA1Me encanta! \xBFMe lo puedo quedar?"
   - speaker: {fileID: 11400000, guid: 924074422e798a24aa459478bbb6a392, type: 2}
+    expression: 
     dialogue: "\u2026"
   - speaker: {fileID: 11400000, guid: 3fe07de915f534742a779a278e1eb9ed, type: 2}
+    expression: 
     dialogue: "\xBFY si te lo cambio por un helado?"
   - speaker: {fileID: 11400000, guid: 3fe07de915f534742a779a278e1eb9ed, type: 2}
+    expression: 
     dialogue: "\u2026"
   - speaker: {fileID: 11400000, guid: 22119d97a107c1c4082240b88d790828, type: 2}
+    expression: thinking
     dialogue: "\u2026"
   - speaker: {fileID: 11400000, guid: 924074422e798a24aa459478bbb6a392, type: 2}
+    expression: proud
     dialogue: "\xA1Adi\xF3s, que te vaya bien!"
   - speaker: {fileID: 11400000, guid: 675dfddf89fe57c40ab357b4642e8cf6, type: 2}
+    expression: sad
     dialogue: "Ser\xE1 taca\xF1o\u2026"

@@ -14,30 +14,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   linesList:
   - speaker: {fileID: 11400000, guid: 95b9aabc805a836409fd24dfe467a3a0, type: 2}
+    expression: wow
     dialogue: 'Vaya, este cuadro es super grande. '
   - speaker: {fileID: 11400000, guid: a27ddf060f47a2c4f924609dd395cd52, type: 2}
+    expression: 
     dialogue: "\xBFQui\xE9n ser\xE1 ese se\xF1or de los ojos que dan miedo?"
   - speaker: {fileID: 11400000, guid: a27ddf060f47a2c4f924609dd395cd52, type: 2}
+    expression: thinking
     dialogue: "\xBFSe est\xE1 comiendo algo, no?"
   - speaker: {fileID: 11400000, guid: 88aecfd1a7ae0c34e96f04d62bbe2896, type: 2}
+    expression: gasp
     dialogue: "\xA1Ah! \xA1El bocata! "
   - speaker: {fileID: 11400000, guid: 95b9aabc805a836409fd24dfe467a3a0, type: 2}
+    expression: 
     dialogue: "\xD1am, \xF1am. "
   - speaker: {fileID: 11400000, guid: 39207bbea5bcc0d49bc600521d222494, type: 2}
+    expression: 
     dialogue: "Como no me lo acabe, mam\xE1 me va a castigar otra vez\u2026"
   - speaker: {fileID: 11400000, guid: 918e83f9ced72cc4ca063ed532bd4e03, type: 2}
+    expression: 
     dialogue: "\xA1Ni\xF1o! \xBFNo has visto el cartel de no comer?"
   - speaker: {fileID: 11400000, guid: bd84d638aa342cb4fa1a32074428cbb3, type: 2}
+    expression: surprised
     dialogue: "\xBFQu\xE9 cartel? No he visto ning\xFAn cartel."
   - speaker: {fileID: 11400000, guid: 2748c141a284a3148a7edc9f63828f25, type: 2}
+    expression: 
     dialogue: "\xA1El de la entrada! \xA1No se puede comer! Guarda el bocadillo,
       o llamar\xE9 a tu profesora. "
   - speaker: {fileID: 11400000, guid: 39207bbea5bcc0d49bc600521d222494, type: 2}
+    expression: fear
     dialogue: "\xA1Ya lo guardo! Que no me castiguen otra vez, por favor. "
   - speaker: {fileID: 11400000, guid: 918e83f9ced72cc4ca063ed532bd4e03, type: 2}
+    expression: 
     dialogue: "Que no tenga que volver a llamarte la atenci\xF3n. "
   - speaker: {fileID: 11400000, guid: 918e83f9ced72cc4ca063ed532bd4e03, type: 2}
+    expression: 
     dialogue: "Dichosos cr\xEDos\u2026 \xBFA qui\xE9n se le ocurre hacer una excursi\xF3n
       al museo?"
   - speaker: {fileID: 11400000, guid: fdc0aed36a5ff174085a88261ed7d290, type: 2}
+    expression: facepalm
     dialogue: "Que enfadica\u2026"

@@ -14,33 +14,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   linesList:
   - speaker: {fileID: 11400000, guid: 95b9aabc805a836409fd24dfe467a3a0, type: 2}
+    expression: hello
     dialogue: "\xA1Hola! \xBFQu\xE9 hac\xE9is ah\xED? "
   - speaker: {fileID: 11400000, guid: 1a11d69330a9f4a47a08909f61d45edc, type: 2}
+    expression: 
     dialogue: "Ni\xF1o, \xBFle est\xE1s hablando al cuadro?"
   - speaker: {fileID: 11400000, guid: a27ddf060f47a2c4f924609dd395cd52, type: 2}
+    expression: proud
     dialogue: "\"\xBFY este qui\xE9n es?\""
   - speaker: {fileID: 11400000, guid: 95b9aabc805a836409fd24dfe467a3a0, type: 2}
+    expression: happy
     dialogue: Solo estoy viendo el cuadro.
   - speaker: {fileID: 11400000, guid: 1a11d69330a9f4a47a08909f61d45edc, type: 2}
+    expression: 
     dialogue: "Ah. \xBFSab\xEDas que esta obra tiene casi cuatrocientos a\xF1os?"
   - speaker: {fileID: 11400000, guid: a27ddf060f47a2c4f924609dd395cd52, type: 2}
+    expression: wow
     dialogue: ' Anda ya. Eso es mentira. '
   - speaker: {fileID: 11400000, guid: 93ac8d393c0082044b1a7802b3007067, type: 2}
+    expression: 
     dialogue: "\xA1Es verdad!"
   - speaker: {fileID: 11400000, guid: 75c4438e188c15c49aa8f79f092db81b, type: 2}
+    expression: 
     dialogue: "Se acab\xF3 de pintar a mitad del siglo XVII. \xA1Es un \xF3leo sobre
       lienzo magn\xEDfico del periodo Barroco! "
   - speaker: {fileID: 11400000, guid: a27ddf060f47a2c4f924609dd395cd52, type: 2}
+    expression: surprised
     dialogue: "\xBFLien-lienzo? \xBFBa-barroco? \xBFQu\xE9 es eso?"
   - speaker: {fileID: 11400000, guid: 75c4438e188c15c49aa8f79f092db81b, type: 2}
+    expression: 
     dialogue: "Observa el realismo y naturalismo de la obra, \xA1es incre\xEDble!
       El pintor quiso plasmar la Sevilla de la \xE9poca, afectada por la peste y
       por la crisis econ\xF3mica, y \xA1vaya si lo consigui\xF3!"
   - speaker: {fileID: 11400000, guid: a27ddf060f47a2c4f924609dd395cd52, type: 2}
+    expression: tired
     dialogue: No entiendo nada.
   - speaker: {fileID: 11400000, guid: 75c4438e188c15c49aa8f79f092db81b, type: 2}
+    expression: 
     dialogue: "\xBFVes esos trazos? \xBFEsos detalles? La suciedad en los pies, las
       piezas de fruta con la cesta, que constituyen casi un bodeg\xF3n en s\xED mismo\u2026
       \xA1La luz! \xA1La composici\xF3n! \xA1El color! Una verdadera obra de arte. "
   - speaker: {fileID: 11400000, guid: fdc0aed36a5ff174085a88261ed7d290, type: 2}
+    expression: tired
     dialogue: "Mejor me voy, que se\xF1or\u2026"
