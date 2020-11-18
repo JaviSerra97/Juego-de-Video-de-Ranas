@@ -4,15 +4,39 @@ using UnityEngine;
 
 public class VenusInteraction : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public GameObject player;
+    public float playerSpeed;
+    public Transform playerPos;
+    public Transform layPos;
+    private bool goLay;
+    private bool isLaid;
+
+    private void Update()
     {
-        
+        if (goLay)
+        {
+            player.transform.position = Vector3.MoveTowards(player.transform.position, playerPos.position, playerSpeed * Time.deltaTime);
+            if (player.transform.position == playerPos.position) { if (!isLaid) { LaySprite(); } }
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void VenusLay()
     {
-        
+        goLay = true;
+        var anim = player.GetComponent<Animator>();
+        anim.SetBool("WalkRight", false);
+        anim.SetBool("WalkFront", false);
+        anim.SetBool("WalkLeft", false);
+        anim.SetBool("WalkBack", true);
+        anim.SetBool("Walking", true);
+    }
+
+    void LaySprite()
+    {
+        goLay = false;
+        GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePosition;
+        player.transform.position = layPos.position;
+        player.GetComponent<Animator>().Play("Lay");
+        isLaid = true;
     }
 }

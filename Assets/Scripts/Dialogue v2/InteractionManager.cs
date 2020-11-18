@@ -23,10 +23,12 @@ public class InteractionManager : MonoBehaviour
     private int nextInteraction = 0;
     private Animator anim;
     private bool aux = false;
+    private AudioManager audioManager;
 
     void Start()
     {
         dialogueManager = GameObject.FindObjectOfType<DialogueManager>().GetComponent<DialogueManager>();
+        audioManager = GameObject.FindObjectOfType<AudioManager>().GetComponent<AudioManager>();
         convIndex = 0;
         limitOfConversations = listOfConversations.Length;
         anim = GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>();
@@ -64,10 +66,23 @@ public class InteractionManager : MonoBehaviour
     {
         anim.Play("CubismToNormal");
     }
+    void NormalToBlanchard()
+    {
+        anim.Play("NormalToBlanchard");
+    }
+    void BlanchardToNormal()
+    {
+        anim.Play("BlanchardToNormal");
+    }
 
     void SaturnoSit()
     {
-        GetComponent<SaturnoInteraction>().SaturnoSit();
+       GetComponent<SaturnoInteraction>().SaturnoSit();
+    }
+
+    void VenusLay()
+    {
+        GetComponent<VenusInteraction>().VenusLay();
     }
 
     void SitSprite()
@@ -113,6 +128,16 @@ public class InteractionManager : MonoBehaviour
     void EndCleanerInteraction()
     {
         GetComponent<CleanerInteraction>().EndInteraction();
+        this.enabled = false;
     }
 
+    void MeninasPaint()
+    {
+        //Aqui se activa el sonido de pintar y se desbloquea el dibujo.
+    }
+
+    void VenusPaint()
+    {
+        //Aqui se activa el sonido de pintar y se desbloquea el dibujo.
+    }
 }

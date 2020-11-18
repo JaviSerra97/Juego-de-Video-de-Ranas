@@ -4,11 +4,10 @@ using UnityEngine;
 
 public class CleanerInteraction : MonoBehaviour
 {
+    public GameObject interactionCleaner;
     public GameObject cube;
     public float moveSpeed;
     public Transform finalPos;
-    public ConversationManager conversationManager;
-    public InteractionManager interactionManager;
     private Animator anim;
     private bool endInteraction = false;
 
@@ -44,9 +43,7 @@ public class CleanerInteraction : MonoBehaviour
     public void NewInteraction()
     {
         endInteraction = false;
-        cube.SetActive(true);
-        anim.Play("Idle");
-        GetComponent<InteractionManager>().enabled = false;
-        GetComponent<ConversationManager>().enabled = true;
+        interactionCleaner.SetActive(true);
+        gameObject.SetActive(false);        
     }
 }

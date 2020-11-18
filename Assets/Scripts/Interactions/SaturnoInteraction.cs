@@ -6,9 +6,9 @@ public class SaturnoInteraction : MonoBehaviour
 {
     public GameObject player;
     public float playerSpeed;
-    public float distanceToSit;
     public Transform playerPos;
     public Transform playerFinalPos;
+    public Transform playerSitPos;
     public GameObject guard;
     public Transform guardPosition;
     public float guardSpeed;
@@ -39,7 +39,7 @@ public class SaturnoInteraction : MonoBehaviour
             else
             {
                 player.transform.position = Vector3.MoveTowards(player.transform.position, playerFinalPos.position, playerSpeed * Time.deltaTime);
-                if (Vector3.Distance(player.transform.position, playerFinalPos.position) < distanceToSit) { if (!isSat) { SitSprite(); } }
+                if (player.transform.position == playerFinalPos.position) { if (!isSat) { SitSprite(); } }
             }
         }
 
@@ -79,8 +79,8 @@ public class SaturnoInteraction : MonoBehaviour
     void SitSprite()
     {
         goSit = false;
-        GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionY;
-        player.transform.position = playerFinalPos.position;
+        GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePosition;
+        player.transform.position = playerSitPos.position;
         player.GetComponent<Animator>().Play("Sit");
         isSat = true;
     }

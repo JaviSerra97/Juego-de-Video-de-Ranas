@@ -20,6 +20,7 @@ public class MyCharacterController : MonoBehaviour
     public bool isInteracting = false;
     private Animator anim;
     public AudioManager audioManager;
+    private bool isInInteraction = false;
 
     private void Awake()
     {
@@ -70,7 +71,12 @@ public class MyCharacterController : MonoBehaviour
     public void EndInteraction()
     {
         isInteracting = false;
-        canInteract = true;
+        if (isInInteraction) { canInteract = true; }
+        else
+        {
+            convManager = null;
+            intManager = null;
+        }
     }
 
     void MovementAnimations(Vector3 desp)
@@ -125,18 +131,22 @@ public class MyCharacterController : MonoBehaviour
             canInteract = true;
             if (other.gameObject.GetComponent<ConversationManager>())
             {
-                if (other.gameObject.GetComponent<ConversationManager>().enabled)
-                {
-                    convManager = other.gameObject.GetComponent<ConversationManager>();
-                }
+                other.gameObject.GetComponent<ConversationManager>().enabled = true;
+                convManager = other.gameObject.GetComponent<ConversationManager>();
             }
             if (other.gameObject.GetComponent<InteractionManager>())
             {
-                if (other.gameObject.GetComponent<InteractionManager>().enabled)
-                {
-                    intManager = other.gameObject.GetComponent<InteractionManager>();
-                }
+                other.gameObject.GetComponent<InteractionManager>().enabled = true;
+                intManager = other.gameObject.GetComponent<InteractionManager>();
             }
+        }
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.tag == "NPC")
+        {
+            isInInteraction = true;
         }
     }
 
@@ -145,8 +155,17 @@ public class MyCharacterController : MonoBehaviour
         if (other.tag == "NPC") 
         {
             canInteract = false;
-            convManager = null;
-            intManager = null;
+            isInInteraction = false;
+            if (other.gameObject.GetComponent<ConversationManager>() && !isInteracting)
+            {
+                other.gameObject.GetComponent<ConversationManager>().enabled = false;
+                convManager = null;
+            }
+            if (other.gameObject.GetComponent<InteractionManager>() && !isInteracting)
+            {
+                other.gameObject.GetComponent<InteractionManager>().enabled = false;
+                intManager = null;
+            }
         }
     }
 }
