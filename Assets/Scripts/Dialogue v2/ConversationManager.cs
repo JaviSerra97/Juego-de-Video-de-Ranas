@@ -12,7 +12,6 @@ public class ConversationManager : MonoBehaviour
     {
         convIndex = 0;
         limitOfConversations = listOfConversations.Length;
-        
     }
 
     public void StartConv()

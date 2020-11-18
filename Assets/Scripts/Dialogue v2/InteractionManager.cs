@@ -22,6 +22,8 @@ public class InteractionManager : MonoBehaviour
     private bool startedFunction = false;
     private int nextInteraction = 0;
     private Animator anim;
+    private bool aux = false;
+
     void Start()
     {
         dialogueManager = GameObject.FindObjectOfType<DialogueManager>().GetComponent<DialogueManager>();
@@ -50,6 +52,7 @@ public class InteractionManager : MonoBehaviour
     public void StartConv()
     {
         DialogueManager.StartConversation(listOfConversations[convIndex]);
+        if(convIndex > 0) { aux = true; }
         if (convIndex < limitOfConversations - 1) { convIndex++; }
     }
 
@@ -62,23 +65,54 @@ public class InteractionManager : MonoBehaviour
         anim.Play("CubismToNormal");
     }
 
-    void SaturnoGuard()
+    void SaturnoSit()
     {
-
+        GetComponent<SaturnoInteraction>().SaturnoSit();
     }
 
     void SitSprite()
     {
-
+        anim.Play("Sit");
+        anim.SetBool("Walking", false);
     }
 
-    void SpriteToEat()
+    public void NormalSprite()
     {
+        GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
+        GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation;
 
+        anim.Play("BackIdle");
+    }
+
+    void ToEatSprite()
+    {
+        anim.Play("ToEat");
     }
 
     void EatingSprite()
     {
-
+        anim.Play("Eating");
     }
+
+    void EnableGuard()
+    {
+        GetComponent<SaturnoInteraction>().EnableGuard();
+    }
+
+    void DisableGuard()
+    {
+        GetComponent<SaturnoInteraction>().DisableGuard();
+    }
+
+    void CleanerSprite()
+    {
+        if (aux) { GetComponent<Animator>().Play("Idle"); }
+        else { nextInteraction--; }
+    }
+
+    void EndCleanerInteraction()
+    {
+        GetComponent<CleanerInteraction>().EndInteraction();
+    }
+
 }

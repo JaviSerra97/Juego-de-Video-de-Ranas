@@ -14,9 +14,10 @@ public class MyCharacterController : MonoBehaviour
     private Vector3 desp;
     public bool canInteract = false;
     private ConversationManager convManager;
+    private InteractionManager intManager;
     public DialogueManager diaManager;
     private bool axisPressed = false;
-    private bool isInteracting = false;
+    public bool isInteracting = false;
     private Animator anim;
     public AudioManager audioManager;
 
@@ -59,9 +60,11 @@ public class MyCharacterController : MonoBehaviour
 
     void StartConversation()
     {
+        anim.SetBool("Walking", false);
         isInteracting = true;
         canInteract = false;
-        convManager.StartConv();
+        if (convManager) { convManager.StartConv(); }
+        if (intManager) { intManager.StartConv(); }
     }
 
     public void EndInteraction()
@@ -120,7 +123,20 @@ public class MyCharacterController : MonoBehaviour
         if (other.tag == "NPC")
         {
             canInteract = true;
-            convManager = other.gameObject.GetComponent<ConversationManager>();
+            if (other.gameObject.GetComponent<ConversationManager>())
+            {
+                if (other.gameObject.GetComponent<ConversationManager>().enabled)
+                {
+                    convManager = other.gameObject.GetComponent<ConversationManager>();
+                }
+            }
+            if (other.gameObject.GetComponent<InteractionManager>())
+            {
+                if (other.gameObject.GetComponent<InteractionManager>().enabled)
+                {
+                    intManager = other.gameObject.GetComponent<InteractionManager>();
+                }
+            }
         }
     }
 
@@ -130,6 +146,7 @@ public class MyCharacterController : MonoBehaviour
         {
             canInteract = false;
             convManager = null;
+            intManager = null;
         }
     }
 }
