@@ -2560,6 +2560,7 @@ MonoBehaviour:
   notepad: event:/SFX/open_notebook
   page: event:/SFX/page
   musicLayers: 0
+  gameManager: {fileID: 743785259}
 --- !u!4 &647049919
 Transform:
   m_ObjectHideFlags: 0
@@ -3297,6 +3298,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd7d49df40339cf40b25afefc8db1120, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  numOfInteractions: 0
 --- !u!4 &743785260
 Transform:
   m_ObjectHideFlags: 0

@@ -101,6 +101,7 @@ public class AudioManager : MonoBehaviour
 
     private bool movementActivated = false;
     private Transform cameraPos;
+    public GameManager gameManager;
 
     void Start()
     {
@@ -264,5 +265,21 @@ public class AudioManager : MonoBehaviour
         fmodEvent.start();
         fmodEvent.release();
     }
-    
+
+    /*
+    //Ejemplo para consultar numero de obras vistas.
+    //La funcion "gameManager.CheckNumOfInteractions()" devuelve un entero en funcion de las interacciones realizadas.
+    void ChangeMusicLayer()
+    {
+        if(gameManager.CheckNumOfInteractions() > 2) 
+        {
+            //Activar layer de musica que se quiera.
+        }
+        
+        if(gameManager.CheckNumOfInteractions() == 8) 
+        {
+            //Activar layer de musica que se quiera.
+        }
+    }
+    */
 }
