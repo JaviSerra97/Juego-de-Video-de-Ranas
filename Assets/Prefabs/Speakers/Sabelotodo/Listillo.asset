@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Listillo
   m_EditorClassIdentifier: 
   speakerName: Sabelotodo
-  speakerSprite: {fileID: 1993405373467186923, guid: 37a6ced282a17944c81e111ed44dacfb, type: 3}
+  speakerSprite: {fileID: -8392859786227660456, guid: f530865397aa84f4c90b0367bcf739a2, type: 3}

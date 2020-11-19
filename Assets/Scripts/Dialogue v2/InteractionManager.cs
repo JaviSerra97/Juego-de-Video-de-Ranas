@@ -145,4 +145,14 @@ public class InteractionManager : MonoBehaviour
     {
         //Aqui se activa el sonido de pintar y se desbloquea el dibujo.
     }
+
+    void GetItems()
+    {
+        GetComponent<RecepInteraction>().GetItems();
+    }
+
+    void DisableCollider()
+    {
+        GetComponent<RecepInteraction>().DisableCollider();
+    }
 }

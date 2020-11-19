@@ -1,0 +1,838 @@
+fileFormatVersion: 2
+guid: f530865397aa84f4c90b0367bcf739a2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7827231967162766403
+    second: expresionesnpc01_0
+  - first:
+      213: 3228499702434847838
+    second: expresionesnpc01_1
+  - first:
+      213: 583094580961666236
+    second: expresionesnpc01_2
+  - first:
+      213: -8000161167865921974
+    second: expresionesnpc01_3
+  - first:
+      213: 4604866436974919753
+    second: expresionesnpc01_4
+  - first:
+      213: 8695033641492283508
+    second: expresionesnpc01_5
+  - first:
+      213: 1707161062915869927
+    second: expresionesnpc01_6
+  - first:
+      213: 4109341329091568504
+    second: expresionesnpc01_7
+  - first:
+      213: -994810864442091639
+    second: expresionesnpc01_8
+  - first:
+      213: -6447716512095482111
+    second: expresionesnpc01_9
+  - first:
+      213: 5629851488234642493
+    second: expresionesnpc01_10
+  - first:
+      213: -8419121568824455732
+    second: expresionesnpc01_11
+  - first:
+      213: 4741917634537593410
+    second: expresionesnpc01_12
+  - first:
+      213: 6079526910464069756
+    second: expresionesnpc01_13
+  - first:
+      213: -8415991260975071028
+    second: expresionesnpc01_14
+  - first:
+      213: 274470078445466092
+    second: expresionesnpc01_15
+  - first:
+      213: 736138343406798407
+    second: expresionesnpc01_16
+  - first:
+      213: 2772828315103618032
+    second: expresionesnpc01_17
+  - first:
+      213: -796124881153580958
+    second: expresionesnpc01_18
+  - first:
+      213: -8334123945419913682
+    second: expresionesnpc01_19
+  - first:
+      213: 5231710897400060593
+    second: expresionesnpc01_20
+  - first:
+      213: -480091173120308923
+    second: expresionesnpc01_21
+  - first:
+      213: -6597167700866776970
+    second: expresionesnpc01_22
+  - first:
+      213: 1376112819738612176
+    second: expresionesnpc01_23
+  - first:
+      213: -5385946654284222537
+    second: expresionesnpc01_24
+  - first:
+      213: -9056412381524932966
+    second: expresionesnpc01_25
+  - first:
+      213: 6335717913940264891
+    second: expresionesnpc01_26
+  - first:
+      213: -8392859786227660456
+    second: expresionesnpc01_27
+  - first:
+      213: 228113923880364534
+    second: expresionesnpc01_28
+  - first:
+      213: -8564848544148450313
+    second: expresionesnpc01_29
+  - first:
+      213: 7079861481615611044
+    second: expresionesnpc01_30
+  - first:
+      213: -2855161653832813684
+    second: expresionesnpc01_31
+  - first:
+      213: -6082695780552154185
+    second: expresionesnpc01_32
+  - first:
+      213: 4184708137293980049
+    second: expresionesnpc01_33
+  - first:
+      213: 3214273831675300565
+    second: expresionesnpc01_34
+  - first:
+      213: 4944800244252307868
+    second: expresionesnpc01_35
+  - first:
+      213: 6019767468556183436
+    second: expresionesnpc01_36
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: expresionesnpc01_0
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 1961
+        width: 528
+        height: 556
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3449151f00aef9c60800000000000000
+      internalID: 7827231967162766403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: expresionesnpc01_1
+      rect:
+        serializedVersion: 2
+        x: 2811
+        y: 1959
+        width: 528
+        height: 556
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c5511cf5fedcc20800000000000000
+      internalID: 3228499702434847838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: expresionesnpc01_2
+      rect:
+        serializedVersion: 2
+        x: 3464
+        y: 1960
+        width: 548
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb4eca89e61971800800000000000000
+      internalID: 583094580961666236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: expresionesnpc01_3
+      rect:
+        serializedVersion: 2
+        x: 4126
+        y: 1948
+        width: 569
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e3a73fdc7b9f090800000000000000
+      internalID: -8000161167865921974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: expresionesnpc01_4
+      rect:
+        serializedVersion: 2
+        x: 4786
+        y: 1948
+        width: 566
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940420670a5c7ef30800000000000000
+      internalID: 4604866436974919753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: expresionesnpc01_6
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 2019
+        width: 596
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec8a7911fd01b710800000000000000
+      internalID: 1707161062915869927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: expresionesnpc01_7
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 1964
+        width: 559
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873a555aa20570930800000000000000
+      internalID: 4109341329091568504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: expresionesnpc01_8
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1967
+        width: 542
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987da3e1ac8b132f0800000000000000
+      internalID: -994810864442091639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: expresionesnpc01_10
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1348
+        width: 544
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c1e6ea910412e40800000000000000
+      internalID: 5629851488234642493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: expresionesnpc01_11
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1329
+        width: 524
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd83612a85492b80800000000000000
+      internalID: -8419121568824455732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: expresionesnpc01_12
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 1337
+        width: 528
+        height: 556
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a16c007fcaec140800000000000000
+      internalID: 4741917634537593410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: expresionesnpc01_13
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 1340
+        width: 583
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7093aca381de5450800000000000000
+      internalID: 6079526910464069756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: expresionesnpc01_14
+      rect:
+        serializedVersion: 2
+        x: 3464
+        y: 1348
+        width: 548
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc00ac8b984643b80800000000000000
+      internalID: -8415991260975071028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: expresionesnpc01_15
+      rect:
+        serializedVersion: 2
+        x: 4117
+        y: 1316
+        width: 568
+        height: 527
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce13737051d1fc300800000000000000
+      internalID: 274470078445466092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: expresionesnpc01_18
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 1346
+        width: 542
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260adfd73a893f4f0800000000000000
+      internalID: -796124881153580958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: expresionesnpc01_19
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 727
+        width: 543
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e264b2f7d6e375c80800000000000000
+      internalID: -8334123945419913682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: expresionesnpc01_20
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 707
+        width: 524
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba1217a755ca9840800000000000000
+      internalID: 5231710897400060593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: expresionesnpc01_21
+      rect:
+        serializedVersion: 2
+        x: 2132
+        y: 716
+        width: 529
+        height: 558
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5490d562f9f5659f0800000000000000
+      internalID: -480091173120308923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: expresionesnpc01_22
+      rect:
+        serializedVersion: 2
+        x: 2778
+        y: 721
+        width: 583
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670c72aede62274a0800000000000000
+      internalID: -6597167700866776970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: expresionesnpc01_23
+      rect:
+        serializedVersion: 2
+        x: 3464
+        y: 709
+        width: 548
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d1916f815fe81310800000000000000
+      internalID: 1376112819738612176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: expresionesnpc01_24
+      rect:
+        serializedVersion: 2
+        x: 4121
+        y: 691
+        width: 569
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf6f2ccd064145b0800000000000000
+      internalID: -5385946654284222537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: expresionesnpc01_27
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 724
+        width: 544
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8594d30ed72968b80800000000000000
+      internalID: -8392859786227660456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: expresionesnpc01_28
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 102
+        width: 542
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9a539b76c6a2300800000000000000
+      internalID: 228113923880364534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: expresionesnpc01_29
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 89
+        width: 524
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3920ba0ab832980800000000000000
+      internalID: -8564848544148450313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: expresionesnpc01_30
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 100
+        width: 528
+        height: 556
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a45baeb188b04260800000000000000
+      internalID: 7079861481615611044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: expresionesnpc01_31
+      rect:
+        serializedVersion: 2
+        x: 2783
+        y: 105
+        width: 583
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c837af66a9d6068d0800000000000000
+      internalID: -2855161653832813684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: expresionesnpc01_32
+      rect:
+        serializedVersion: 2
+        x: 3464
+        y: 86
+        width: 548
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3eb634a6ce59ba0800000000000000
+      internalID: -6082695780552154185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: expresionesnpc01_33
+      rect:
+        serializedVersion: 2
+        x: 4121
+        y: 67
+        width: 569
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191281c11e1131a30800000000000000
+      internalID: 4184708137293980049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: expresionesnpc01_36
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 103
+        width: 545
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c876eb95e928a8350800000000000000
+      internalID: 6019767468556183436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

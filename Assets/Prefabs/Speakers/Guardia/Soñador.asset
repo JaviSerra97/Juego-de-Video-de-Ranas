@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: "So\xF1ador"
   m_EditorClassIdentifier: 
   speakerName: Guardia
-  speakerSprite: {fileID: 4615211264306211399, guid: 37a6ced282a17944c81e111ed44dacfb, type: 3}
+  speakerSprite: {fileID: 583094580961666236, guid: f530865397aa84f4c90b0367bcf739a2, type: 3}

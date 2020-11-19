@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: 3cbce7d3f900a1645bf1b6c6f7494068
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8258299714980102449
+    second: expresiones_prota_0
+  - first:
+      213: -5785943291142244342
+    second: expresiones_prota_1
+  - first:
+      213: 8505437118802562846
+    second: expresiones_prota_2
+  - first:
+      213: -8832814542122512966
+    second: expresiones_prota_3
+  - first:
+      213: 3478845485486074973
+    second: expresiones_prota_4
+  - first:
+      213: -6147639195051375930
+    second: expresiones_prota_5
+  - first:
+      213: 2837730081967766158
+    second: expresiones_prota_6
+  - first:
+      213: -454928676298608134
+    second: expresiones_prota_7
+  - first:
+      213: -4879273427988178171
+    second: expresiones_prota_8
+  - first:
+      213: -5942258361974764864
+    second: expresiones_prota_9
+  - first:
+      213: 3601918234146329006
+    second: expresiones_prota_10
+  - first:
+      213: -2356255582872859493
+    second: expresiones_prota_11
+  - first:
+      213: -4408502084276817253
+    second: expresiones_prota_12
+  - first:
+      213: -3416895644226510940
+    second: expresiones_prota_13
+  - first:
+      213: 8387057516378160627
+    second: expresiones_prota_14
+  - first:
+      213: 2878746952116372966
+    second: expresiones_prota_15
+  - first:
+      213: -7522325071570731951
+    second: expresiones_prota_16
+  - first:
+      213: 4352985578223428268
+    second: expresiones_prota_17
+  - first:
+      213: 4944870905643108905
+    second: expresiones_prota_18
+  - first:
+      213: -3768115096127029772
+    second: expresiones_prota_19
+  - first:
+      213: -2021509606735444099
+    second: expresiones_prota_20
+  - first:
+      213: 1471836272731847943
+    second: expresiones_prota_21
+  - first:
+      213: 6170171148608429324
+    second: expresiones_prota_22
+  - first:
+      213: 8542515330479130722
+    second: expresiones_prota_23
+  - first:
+      213: -7021907923435702784
+    second: expresiones_prota_24
+  - first:
+      213: -1036037690961794440
+    second: expresiones_prota_25
+  - first:
+      213: 3294281621962270963
+    second: expresiones_prota_26
+  - first:
+      213: 498429458274848048
+    second: expresiones_prota_27
+  - first:
+      213: 5270541768760287269
+    second: expresiones_prota_28
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: expresiones_prota_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1839
+        width: 595
+        height: 517
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fceb6efd920a46d80800000000000000
+      internalID: -8258299714980102449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: expresiones_prota_1
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 1832
+        width: 595
+        height: 517
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0879e06b3334bfa0800000000000000
+      internalID: -5785943291142244342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: expresiones_prota_2
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 1833
+        width: 596
+        height: 518
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f06adeef1690670800000000000000
+      internalID: 8505437118802562846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: expresiones_prota_3
+      rect:
+        serializedVersion: 2
+        x: 1969
+        y: 1832
+        width: 595
+        height: 517
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd02e1e8f98b6580800000000000000
+      internalID: -8832814542122512966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: expresiones_prota_8
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1271
+        width: 597
+        height: 519
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b13c23ba6594cb0800000000000000
+      internalID: -4879273427988178171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: expresiones_prota_9
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 1272
+        width: 595
+        height: 518
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca46e2d08bd88da0800000000000000
+      internalID: -5942258361974764864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: expresiones_prota_10
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 1274
+        width: 595
+        height: 517
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea15b48dc859cf130800000000000000
+      internalID: 3601918234146329006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: expresiones_prota_11
+      rect:
+        serializedVersion: 2
+        x: 1966
+        y: 1274
+        width: 596
+        height: 517
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c05d60806ec4fd0800000000000000
+      internalID: -2356255582872859493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: expresiones_prota_16
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 712
+        width: 595
+        height: 517
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15cf200d3355b9790800000000000000
+      internalID: -7522325071570731951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: expresiones_prota_17
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 710
+        width: 595
+        height: 518
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2e76ef159e86c30800000000000000
+      internalID: 4352985578223428268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: expresiones_prota_18
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 712
+        width: 596
+        height: 517
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a850fb3e5bf9440800000000000000
+      internalID: 4944870905643108905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: expresiones_prota_19
+      rect:
+        serializedVersion: 2
+        x: 1966
+        y: 709
+        width: 596
+        height: 518
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fdbf8ec847f4bbc0800000000000000
+      internalID: -3768115096127029772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: expresiones_prota_24
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 150
+        width: 595
+        height: 518
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0063d1282fb2d8e90800000000000000
+      internalID: -7021907923435702784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: expresiones_prota_26
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 150
+        width: 595
+        height: 518
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8a82b6ea3a7bd20800000000000000
+      internalID: 3294281621962270963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: expresiones_prota_28
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 147
+        width: 616
+        height: 524
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520e0dc60d9b42940800000000000000
+      internalID: 5270541768760287269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

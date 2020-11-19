@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Base
   m_EditorClassIdentifier: 
   speakerName: Abuelo
-  speakerSprite: {fileID: 6098976007553994276, guid: 37a6ced282a17944c81e111ed44dacfb, type: 3}
+  speakerSprite: {fileID: -2855161653832813684, guid: f530865397aa84f4c90b0367bcf739a2, type: 3}
