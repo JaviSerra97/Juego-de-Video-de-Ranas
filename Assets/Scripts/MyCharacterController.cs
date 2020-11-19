@@ -30,7 +30,11 @@ public class MyCharacterController : MonoBehaviour
     
     private void FixedUpdate()
     {
-        if (isInteracting) { return; }
+        if (isInteracting) 
+        {
+            audioManager.StopMovementAudio();
+            return;
+        }
 
         desp = new Vector3(Input.GetAxisRaw(hAxis), 0, Input.GetAxisRaw(vAxis));
 
