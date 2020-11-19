@@ -31,6 +31,7 @@ public class ForceStart : MonoBehaviour
     {
         isInteracting = true;
         var anim = player.GetComponent<Animator>();
+        player.GetComponent<MyCharacterController>().canInteract = false ;
         anim.SetBool("Walking", false);
         anim.Play("FrontIdle");
         intManager.StartConv();
