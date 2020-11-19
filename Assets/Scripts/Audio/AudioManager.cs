@@ -110,7 +110,7 @@ public class AudioManager : MonoBehaviour
         musicEV = FMODUnity.RuntimeManager.CreateInstance(music);
         musicEV.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(cameraPos));
         musicEV.setParameterByName("capas", this.musicLayers);
-        //musicEV.start();
+        musicEV.start();
 
 
         movementAudio = FMODUnity.RuntimeManager.CreateInstance(movement);
@@ -269,16 +269,26 @@ public class AudioManager : MonoBehaviour
     /*
     //Ejemplo para consultar numero de obras vistas.
     //La funcion "gameManager.CheckNumOfInteractions()" devuelve un entero en funcion de las interacciones realizadas.
-    void ChangeMusicLayer()
+    private void changeMusicLayer()
     {
         if(gameManager.CheckNumOfInteractions() > 2) 
         {
-            //Activar layer de musica que se quiera.
+            musicEV.setParameterByName("capas", 0.2f);
         }
-        
-        if(gameManager.CheckNumOfInteractions() == 8) 
+
+        if (gameManager.CheckNumOfInteractions() > 4)
         {
-            //Activar layer de musica que se quiera.
+            musicEV.setParameterByName("capas", 0.4f);
+        }
+
+        if (gameManager.CheckNumOfInteractions() > 6)
+        {
+            musicEV.setParameterByName("capas", 0.6f);
+        }
+
+        if (gameManager.CheckNumOfInteractions() == 8) 
+        {
+            musicEV.setParameterByName("capas", 0.8f);
         }
     }
     */

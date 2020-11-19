@@ -14,32 +14,45 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   linesList:
   - speaker: {fileID: 11400000, guid: 95b9aabc805a836409fd24dfe467a3a0, type: 2}
+    expression: hello
     dialogue: "\xA1Hola! "
   - speaker: {fileID: 11400000, guid: 912b5d715dd51344592ae2686450ae91, type: 2}
+    expression: 
     dialogue: "Hola, cari\xF1o. \xBFLo est\xE1s pasando bien en el museo?"
   - speaker: {fileID: 11400000, guid: 924074422e798a24aa459478bbb6a392, type: 2}
+    expression: proud
     dialogue: "\xA1Much\xEDsimo! Voy a ganar el reto y toda la clase me tendr\xE1
       envidia."
   - speaker: {fileID: 11400000, guid: 7fdc0c5950f7d004db2d79639bd0ded1, type: 2}
+    expression: 
     dialogue: "Ay que ver, cu\xE1nta energ\xEDa tienen los ni\xF1os hoy en d\xEDa\u2026"
   - speaker: {fileID: 11400000, guid: 32eb49c979d178c4ea3ca4452a603515, type: 2}
+    expression: 
     dialogue: 'Pero recuerda: "La envidia es serpiente que al que abriga le muerde".'
   - speaker: {fileID: 11400000, guid: 39207bbea5bcc0d49bc600521d222494, type: 2}
+    expression: surprised
     dialogue: "\xBFC\xF3mo? \xBFUna serpiente? \xBFD\xF3nde?"
   - speaker: {fileID: 11400000, guid: 7fdc0c5950f7d004db2d79639bd0ded1, type: 2}
+    expression: 
     dialogue: "Significa que la envidia no es buena, hijo. Es mejor alegrarse por
       los dem\xE1s y compartir tus cosas. "
   - speaker: {fileID: 11400000, guid: bd87e6a96c7c4764a951da6a51105f4a, type: 2}
+    expression: thinking
     dialogue: "Mmmm\u2026 Vale, lo recordar\xE9. "
   - speaker: {fileID: 11400000, guid: 95b9aabc805a836409fd24dfe467a3a0, type: 2}
+    expression: 
     dialogue: "Por cierto, \xBFQu\xE9 hace aqu\xED?"
   - speaker: {fileID: 11400000, guid: 7fdc0c5950f7d004db2d79639bd0ded1, type: 2}
+    expression: 
     dialogue: "He venido con mi marido a visitar el museo. A \xE9l le encanta y viene
       muy a menudo. "
   - speaker: {fileID: 11400000, guid: 7fdc0c5950f7d004db2d79639bd0ded1, type: 2}
+    expression: 
     dialogue: "Mis piernas ya no son lo que eran, as\xED que me he sentado a descansar
       un poco\u2026 \xC9l estar\xE1 por ah\xED, embobado frente a alg\xFAn cuadro."
   - speaker: {fileID: 11400000, guid: 95b9aabc805a836409fd24dfe467a3a0, type: 2}
+    expression: rest
     dialogue: "Los bancos son muy c\xF3modos, \xA1descanse mucho! "
   - speaker: {fileID: 11400000, guid: 7fdc0c5950f7d004db2d79639bd0ded1, type: 2}
+    expression: 
     dialogue: 'Muchas gracias, hijo. Disfruta de la visita. '

@@ -14,24 +14,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   linesList:
   - speaker: {fileID: 11400000, guid: 95b9aabc805a836409fd24dfe467a3a0, type: 2}
+    expression: hello
     dialogue: "\xA1Buenos d\xEDas! "
   - speaker: {fileID: 11400000, guid: a36acfa875785714aa309ec2b903a16f, type: 2}
+    expression: 
     dialogue: "\xA1Bienvenido al museo! Vienes con la excursi\xF3n del colegio, \xBFverdad?"
   - speaker: {fileID: 11400000, guid: 924074422e798a24aa459478bbb6a392, type: 2}
+    expression: happy
     dialogue: "\xA1S\xED, s\xED, s\xED! \xBFCu\xE1ndo empieza el juego?"
   - speaker: {fileID: 11400000, guid: f1e8658d807ae5f49b2c6a0c42fbe775, type: 2}
+    expression: 
     dialogue: 'Jajaja, veo que tienes muchas ganas. No te preocupes, el reto comienza
       enseguida. '
   - speaker: {fileID: 11400000, guid: a36acfa875785714aa309ec2b903a16f, type: 2}
+    expression: 
     dialogue: En este cuaderno tienes todas las obras del museo. Tienes que ir a
       buscarlas todas y marcarlas con nuestro sello en el mapa.
   - speaker: {fileID: 11400000, guid: a36acfa875785714aa309ec2b903a16f, type: 2}
+    expression: 
     dialogue: "\xA1Cuando hayas terminado, habr\xE1s completado el reto! "
   - speaker: {fileID: 11400000, guid: 3fe07de915f534742a779a278e1eb9ed, type: 2}
+    expression: proud
     dialogue: "\xA1Genial! Muchas gracias, \xA1seguro que gano! "
   - speaker: {fileID: 11400000, guid: f1e8658d807ae5f49b2c6a0c42fbe775, type: 2}
+    expression: 
     dialogue: "\xA1Estoy segura que s\xED, mucho \xE1nimo y disfruta de todos los
       secretos y la magia que esconde el museo! "
   - speaker: {fileID: 11400000, guid: f1e8658d807ae5f49b2c6a0c42fbe775, type: 2}
+    expression: 
     dialogue: "\xA1Y recuerda! Pulsa ESPACIO para interactuar con las obras y los
       otros visitantes del museo."

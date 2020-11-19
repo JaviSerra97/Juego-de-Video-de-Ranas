@@ -14,10 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   linesList:
   - speaker: {fileID: 11400000, guid: f95f2b01524b4a044bde129420610880, type: 2}
+    expression: 
     dialogue: "\xA1Pero bueno! No puedes sentarte ah\xED. \xBFNo has escuchado las
       normas antes de entrar?"
   - speaker: {fileID: 11400000, guid: 5956d3ab080685d4e96ccc03865edad3, type: 2}
+    expression: fear
     dialogue: "Pero profe\u2026 Es que los bancos son muy inc\xF3modos, \xA1no me
       gustan! "
   - speaker: {fileID: 11400000, guid: f95f2b01524b4a044bde129420610880, type: 2}
+    expression: 
     dialogue: "\xA1Las normas son las normas! \xA1Levanta de ah\xED! "

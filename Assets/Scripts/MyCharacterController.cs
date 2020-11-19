@@ -88,6 +88,7 @@ public class MyCharacterController : MonoBehaviour
         }
         else 
         {
+            // Careful with this...
             audioManager.PlayMovementAudio();
             anim.SetBool("Walking", true);
             if (desp.x > 0.2f)

@@ -34,7 +34,7 @@ MonoBehaviour:
   - speaker: {fileID: 11400000, guid: 918e83f9ced72cc4ca063ed532bd4e03, type: 2}
     expression: 
     dialogue: "\xA1Ni\xF1o! \xBFNo has visto el cartel de no comer?"
-  - speaker: {fileID: 11400000, guid: bd84d638aa342cb4fa1a32074428cbb3, type: 2}
+  - speaker: {fileID: 11400000, guid: 88aecfd1a7ae0c34e96f04d62bbe2896, type: 2}
     expression: surprised
     dialogue: "\xBFQu\xE9 cartel? No he visto ning\xFAn cartel."
   - speaker: {fileID: 11400000, guid: 2748c141a284a3148a7edc9f63828f25, type: 2}
